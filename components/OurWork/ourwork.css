@@ -1,0 +1,454 @@
+@font-face {
+    font-family: 'Lato Regular';
+      src: url('/fonts/Lato/Lato-Regular.ttf') format('truetype');
+      font-weight: 400;
+  }
+  
+  .lato-regular {
+    font-family: 'Lato Regular';
+  }
+  
+    body {
+      font-family: 'Lato Regular', sans-serif !important;
+      font-size: 18px !important;
+      line-height: 28px !important;
+      letter-spacing: 0.1px !important;
+    }
+  
+  
+  .container {
+    width:1140px !important;
+  }
+  .container-fluid {
+    background: #F2F2F2;
+}
+
+  /* Container */
+  @media(max-width:767px) {
+  .container {
+    width:100% !important;
+  }
+  }
+  
+  
+  /* About us */
+  
+  .about-tap-bg {
+      background: #2E6339 !important;
+      border-radius: 10px;
+      display: inline-block;
+    }
+  
+    .m-2.p-2.border.border-1.border-dark.rounded.col {
+      display: inline-block;
+  }
+  
+  .custom-work-menu-header {
+    overflow-x: scroll;
+    overflow-y: hidden;
+  }
+
+  .custom-row {
+    min-width: 1500px;
+  }
+
+  .custom-row-sustain {
+    min-width: 1000px;
+  }
+
+  .custom-row-seed-projects {
+    min-width: 700px;
+    
+  }
+  
+  p {
+    font-size:18px !important;
+    letter-spacing: 0.5px;
+  }
+
+  .text-green {
+    color : #126634;
+  }
+
+.community-seed-bank {
+  background: #26844C;
+  padding: 20px;
+  border-radius: 20px;
+  min-height: 370px;
+  margin: 20px;
+}
+
+.community-row {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  width: 1280px;
+}
+
+.community-scroll {
+  width: 1500px;
+}
+
+.community-para {
+  font-size: 14px !important;
+  margin-top: 15px;
+  line-height: 24px !important;
+}
+
+@media(max-width:767px) {
+  .community-row {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    width: 100% !important;
+  }
+
+  .community-scroll {
+    width: 100% !important;
+  }
+}
+
+
+/* In-situ and Ex-situ */
+.situ-custom-bg {
+  background-image: linear-gradient(180deg, #FFFFFF 20%, #F5E7C8 9%);
+}
+
+.custom-situ-row {
+  border: 1px solid black;
+  border-radius: 20px;
+}
+
+.ex-situ-bg {
+  background-image: linear-gradient(180deg, #FFFFFF 45%, #7B9F443B 10%);
+}
+
+/* Kitchen and community */
+
+.react-tabs__tab-list {
+  border-bottom: 0px solid #aaa !important;
+  display: flex;
+  justify-content: center;
+  color: #7B9F44;
+  font-weight:700 ;
+}
+
+.react-tabs__tab--selected {
+  background: transparent;
+  border-color: #2E6339;
+  color: #2E6339 !important;
+  border-radius: 5px 5px 0 0;
+  border-bottom: 3px solid !important;
+}
+
+.react-tabs__tab {
+  display: inline-block;
+  border: 0px solid transparent;
+  border-bottom: none;
+  bottom: 0px;
+  position: relative;
+  list-style: none;
+  padding: 15px 40px;
+  cursor: pointer;
+}
+
+@media(max-width:767px) {
+  .react-tabs__tab {
+    padding: 15px 10px;
+  }
+}
+
+/* Documenting Indignous Knowledge */
+
+.doc-content-contaiter {
+  background-image: linear-gradient(180deg, #FDFDFD 57%, #2E6339 25%);
+}
+
+
+/* Trainig Exposure  */
+
+.training-exposure-custom-container {
+  background-image: linear-gradient(180deg, #FFFFFF 35%, #E4E4E4 25%);
+}
+
+
+
+/* Income Generation Custom CSS */
+
+.income-generation-custom-container{
+  background-image: linear-gradient(180deg, #F2F2F2 20%, #E0E9D3 20%);
+}
+
+.divider-top {
+  width: 120px !important;
+  height: 120px !important;
+  border: 3px solid black;
+  border-right: 0;
+  border-bottom: 0;
+  position: absolute;
+}
+
+.divider-bottom {
+  width: 120px !important;
+  height: 120px !important;
+  border: 3px solid black;
+  border-left: 0;
+  border-top: 0;
+  position: absolute;
+}
+.bottom-divider {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    align-items: flex-end;
+    justify-content: flex-end;
+  }
+
+
+
+
+/* Oli Produce group - Income Generation */
+
+.process-bg-1 {
+  background-image: url("/our-work/income-generation/oil_producer_process.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 15px;
+  min-height: 576px;
+}
+
+.process-bg-1-hover{
+  display: none;
+}
+
+.process-bg-1:hover .hide-text{
+  display: none;
+}
+
+.process-bg-1:hover  .process-bg-1-hover{
+  background: #B4C894;
+  border-radius: 15px;
+  display: block;
+  min-height: 576px;
+}
+
+/* Parvathi Papad - Income Generation */
+.process-bg-2 {
+  background-image: url("/our-work/income-generation/parvathi_papad_img_2.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 15px;
+  min-height: 576px;
+}
+
+.process-bg-2:hover .hide-text-2{
+  display: none;
+}
+
+.process-bg-2-hover{
+  display: none;
+}
+
+.process-bg-2:hover .process-bg-2-hover {
+  border-radius: 15px;
+  display: block;
+  height: 576px;
+  background:#F8D790;
+  overflow: scroll;
+}
+
+
+/* Sri Durgashree chandrike - Income Generation  */ 
+
+.process-bg-3 {
+  background-image: url("/our-work/income-generation/sri_Durgashree_img_3.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 15px;
+  min-height: 576px;
+
+}
+
+.process-bg-3:hover .hide-text-3{
+  display: none;
+}
+
+.process-bg-3-hover{
+  display: none;
+}
+
+.process-bg-3:hover .process-bg-3-hover {
+  background:#D8AC56;
+  border-radius: 15px;
+  display: block;
+  min-height: 576px;
+}
+
+/* Sri Kaveramma Vermicompost Producer Group - Income Generation */
+
+.process-bg-4 {
+  background-image: url("/our-work/income-generation/sri_kaveramma_img_4.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 15px;
+  min-height: 576px;
+
+}
+
+.process-bg-4:hover .hide-text-4{
+  display: none;
+}
+
+.process-bg-4-hover{
+  display: none;
+}
+
+.process-bg-4:hover .process-bg-4-hover {
+  background: #F8D790;
+  border-radius: 15px;
+  display: block;
+  min-height: 576px;
+}
+
+/* Sri Muneshwara Vermicompost and Liquid Input Producer Group - Income Generatoin */
+
+.process-bg-5 {
+  background-image: url("/our-work/income-generation/sri_kaveramma_img_4.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 15px;
+  min-height: 576px;
+
+}
+
+.process-bg-5:hover .hide-text-5{
+  display: none;
+}
+
+.process-bg-5-hover{
+  display: none;
+}
+
+.process-bg-5:hover .process-bg-5-hover {
+  background: #B4C894;
+  border-radius: 15px;
+  display: block;
+  min-height: 576px;
+}
+
+/* Sri Ambha Bhavani Cloth Bag Making Group - Income Generation */
+
+.process-bg-6 {
+  background-image: url("/our-work/income-generation/sri_ambha_bhavani_cloth_img_6.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 15px;
+  min-height: 576px ;
+
+}
+
+.process-bg-6:hover .hide-text-6{
+  display: none;
+}
+
+.process-bg-6-hover{
+  display: none;
+}
+
+.process-bg-6:hover .process-bg-6-hover {
+  background: #D8AC56;
+  border-radius: 15px;
+  display: block;
+  min-height: 576px;
+}
+
+/* Sri Jayalakshmi Chandrike Rent Out Group - Income Generation */
+
+
+.process-bg-7 {
+  background-image: url("/our-work/income-generation/sri_kaveramma_img_4.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 15px;
+  min-height: 576px;
+
+}
+
+.process-bg-7:hover .hide-text-7{
+  display: none;
+}
+
+.process-bg-7-hover{
+  display: none;
+}
+
+.process-bg-7:hover .process-bg-7-hover {
+  background: #D8AC56;
+  border-radius: 15px;
+  display: block;
+  min-height: 576px;
+}
+
+/* @media(max-width:767px){
+  .process-bg-6:hover .process-bg-6-hover {
+    min-height: 576px;
+}
+.process-bg-6{
+  min-height: 576px;
+overflow: scroll;
+}
+} */
+
+
+/*  Farm Ponds -  Soil and water conservation */
+
+.farm-ponds-content-row{
+  background:#7B9F44;
+  height: 500px;
+}
+
+/* Silt Application - Soil and water conservation */
+
+/* Vermicompost - Soil and Water Conservation */
+
+.vermicompost-content-bg {
+  background-image: url("/our-work/vermicompost/vermincompost_conten_img.png") ;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 480px;
+}
+
+
+/* Agroforestry - Soil and water conservation */
+
+.agroforesty-content-bg{
+  background-image: url("/our-work/agroforestry/agroforestry_content_bg_img.png") ;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 480px;
+}
+
+::marker {
+  color: #2E6339;
+}
+
+
+/* Seed Banks */
+
+.seed-bank-container{
+  background-image: linear-gradient(180deg, #E0E5D7 53%, #F2F2F2 20%);
+}
+
+.seed-custom-bg-list{
+  background: #7B9F44;
+  padding: 15px;
+  margin: 20px;
+}

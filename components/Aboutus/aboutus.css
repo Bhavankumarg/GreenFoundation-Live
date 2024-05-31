@@ -1,0 +1,183 @@
+@font-face {
+  font-family: 'Lato Regular';
+    src: url('/fonts/Lato/Lato-Regular.ttf') format('truetype');
+    font-weight: 400;
+}
+
+.lato-regular {
+  font-family: 'Lato Regular';
+}
+
+
+  body {
+    font-family: 'Lato Regular', sans-serif !important;
+    font-size: 18px !important;
+    line-height: 28px !important;
+    letter-spacing: 0.1px !important;
+  }
+
+
+.container {
+  width:1140px !important;
+}
+
+/* Container */
+@media(max-width:767px) {
+.container {
+  width:100% !important;
+}
+
+}
+
+
+/* About us */
+
+.about-tap-bg {
+    background: #2E6339 !important;
+    border-radius: 10px;
+    display: inline-block;
+  }
+
+  .m-2.p-2.border.border-1.border-dark.rounded.col {
+    display: inline-block;
+}
+
+.custom-about-menu-header {
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+
+.custom-row {
+  width:1200px;
+}
+
+p {
+  font-size:18px !important;
+  letter-spacing: 0.5px;
+}
+
+.bg-p-green {
+  background: #2E6438;
+  border-radius: 20px;
+}
+
+.bg-custom-grey{
+  background: #f2f2f2;
+}
+
+.text-green{
+  color: #2E6438;
+}
+
+.lime-green-bg{
+  background: #E0E5D7;
+  display: inline-block;
+}
+
+.yellow-lime-green-bg{
+  background:#7B9F44;
+}
+
+/* What Drive Us */
+.custom-drive-row {
+  border-radius: 24px;
+  background:#7B9F44;
+}
+
+.custom-img-content-css{
+  margin-top: -20px !important;
+  margin-left: -30px;
+}
+
+/* What drive us tabs */
+ul.d-flex.flex-column {
+  min-height: 500px;
+  max-height: 500px;
+  background: #2E6339;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  padding-left: 0 !important;
+  border-radius: 20px;
+  margin-left: -40px;
+}
+
+.react-tabs__tab {
+  border: 0px solid transparent !important;
+  padding: 20px 12px !important;
+  color : white !important;
+}
+
+.react-tabs__tab--selected {
+  background: transparent !important;
+  border-bottom: 3px solid !important;
+  border-color: #F8D790 !important;
+  color: #F8D790 !important;
+}
+
+div#panel\:Ram\:0, div#panel\:Ram\:1, div#panel\:Ram\:2 {
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+
+}
+
+.d-md-flex.custom-tab-deisgn.py-md-5 {
+  border: 2px solid #2E6339;
+  border-radius: 20px;
+}
+
+/* Economic Reasons */
+
+.ecomomic-custom-container{
+  border: 2px solid #7B9F44;
+  margin-top: -20px;
+  border-radius: 20px;
+}
+
+
+/* seeking Legislative Support */
+
+.seeking-custom-container {
+  border: 2px solid #7B9F44;
+  margin-top: -35px !important;
+  border-radius: 20px;
+  
+}
+
+/* woment empowerment */
+
+.empower-custom-container {
+  border: 2px solid #7B9F44;
+  margin-top: -35px !important;
+  border-radius: 20px;
+}
+
+/* Core Team */
+
+.core-team-text-green {
+  color: #126634;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.our-team-box {
+  border-radius: 30px;
+  padding: 30px;
+}
+
+.award-know-btn {
+  background: #2E6339;
+}
+.award-know-btn:hover {
+  background: #2E6339;
+}
+
+@media (max-width:767px){
+  .custom-img-content-css{
+    margin-top: 0px !important;
+    margin-left: 0px !important;
+  }
+}

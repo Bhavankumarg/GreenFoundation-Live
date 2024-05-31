@@ -1,0 +1,95 @@
+
+@font-face {
+    font-family: 'Lato Regular';
+      src: url('/fonts/Lato/Lato-Regular.ttf') format('truetype');
+      font-weight: 400;
+  }
+  
+  .lato-regular {
+    font-family: 'Lato Regular';
+  }
+  
+    body {
+      font-family: 'Lato Regular', sans-serif !important;
+      font-size: 18px !important;
+      line-height: 28px !important;
+      letter-spacing: 0.1px !important;
+    }
+  
+  
+  .container {
+    width:1140px !important;
+  }
+
+   /* Container mobile */
+   @media(max-width:767px) {
+    .container {
+      width:100% !important;
+    }
+    }
+
+  .text-green {
+    color : #126634;
+  }
+
+  .bg-green{
+    background: #126634;
+  }
+
+  .bg-custom-grey {
+    background: #F0F0F0;
+  }
+
+  /* Youtube Video */
+
+  .yt-bg-design {
+    background: #F0F0F0;
+  }
+
+  .about-tap-bg {
+    background: #2E6339 !important;
+    border-radius: 10px;
+    display: inline-block;
+  }
+
+   
+  .custom-work-menu-header {
+    overflow-x: scroll;
+    overflow-y: hidden;
+  }
+
+  .custom-row {
+    min-width: 300px;
+  }
+
+  .m-2.p-2.border.border-1.border-dark.rounded.col {
+    display: inline-block;
+}
+
+/* Kannada Publications */
+p.Kannada-publication-para{
+  font-size: 16px !important;
+}
+
+h4.englis-publication-head-loop-font{
+  font-size: 20px !important;
+}
+
+.kannada-publication-btn-loop-font{
+  font-size: 13px;
+  fill: #fff;
+  color: #fff;
+  background-color: #126634;
+  padding: 0px 10px;
+  display: inline;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+
+p.font16px  {
+  font-size: '16px !important'
+}
+
+
+

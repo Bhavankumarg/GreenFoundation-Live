@@ -1,0 +1,210 @@
+@font-face {
+    font-family: 'Lato Regular';
+      src: url('/fonts/Lato/Lato-Regular.ttf') format('truetype');
+      font-weight: 400;
+  }
+
+  .lato-regular {
+    font-family: 'Lato Regular';
+  }
+  
+    body {
+      font-family: 'Lato Regular', sans-serif ;
+    }
+  
+.container {
+  max-width: 1140px !important;
+}
+
+.container-fluid {
+  background: #F2F2F2;
+}
+
+p {
+  font-size:18px !important;
+  letter-spacing: 0.5px;
+  color: #222222;
+}
+    /* Home page */
+  
+  .home-bg-container {
+    background-image: url('/home/home_banner.jpeg');
+    width:100%;
+    min-height: 70vh;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-position: center;
+    background-size: cover;
+  }
+
+  .home-bg-container.p-0.container-fluid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.home-text-bg {
+  backdropFilter: blur(10px);
+  background: rgba(0, 0, 0, 0.4);
+}
+ 
+.agro-bg-home {
+    background-image: url('/home/our-work/agro_conservation.png');
+    width:100%;
+    min-height: 30vh;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-position: center;
+    background-size: cover;
+    border-radius:15px;
+}
+
+.cer-bg-home {
+    background-image: url('/home/our-work/certification.png');
+    width:100%;
+    min-height: 30vh;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-position: center;
+    background-size: cover;
+    border-radius:15px;
+}
+
+.sustain-bg-home {
+    background-image: url('/home/our-work/susti_agri.png');
+    width:100%;
+    min-height: 30vh;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-position: center;
+    background-size: cover;
+    border-radius:15px;
+}
+
+.research-bg-home {
+    background-image: url('/home/our-work/research.png');
+    width:100%;
+    min-height: 30vh;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-position: center;
+    background-size: cover;
+    border-radius:15px;
+}
+
+.agro-bg-home:hover, .cer-bg-home:hover, .sustain-bg-home:hover, .research-bg-home:hover {
+  background:#2e6339 ;
+}
+
+.our-reach-banner {
+  background-image: url('/home/our-reach/our-reach-banner.jpeg');
+  width:100%;
+  min-height: 90vh;
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  background-position: center;
+  background-size: cover;
+}
+
+/* .ka-our-reach, .tn-our-reach, .mp-our-reach, .ch-our-reach{
+  height:490px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-content: flex-end;
+  z-index:0;
+}
+
+.ka-hover , .tn-hover, .mp-hover, .ch-hover {
+  height:250px;
+  
+}
+
+.ka-hover:hover{
+  height:440px;
+}
+
+.tn-hover:hover, .mp-hover:hover, .ch-hover:hover  {
+  height:280px;
+}
+
+.green-bg {
+  padding: 10px 10px 60px;
+  background-color: #126634;
+  border-style: solid;
+  border-width: 2px 0 0;
+  border-color: #d29e38;
+  
+} */
+
+.our-reach-main-container.row {
+  min-height: 540px;
+  overflow: hidden;
+}
+
+.green-bg-our-reach {
+  margin: 0;
+  padding: 10px;
+  background-color: #126634;
+  border-style: solid;
+  border-width: 2px 0 0;
+  border-color: #d29e38;
+  min-height: 180px;
+}
+
+.ka-our-reach:hover {
+  min-height:540px;
+  border-transition: 0.3s;
+}
+
+.ka-our-reach, .tn-our-reach, .mp-our-reach, .ch-our-reach { 
+  height:300px;
+}
+
+.tn-our-reach:hover {
+height:350px;
+}
+
+.mp-our-reach:hover, .ch-our-reach:hover {
+height: 320px;
+}
+
+{
+  height: 248px;
+}
+
+
+
+p.text-white.custom-reach-para {
+  font-size: 15px !important;
+}
+
+
+/* Partners carousel */
+button.react-multiple-carousel__arrow.react-multiple-carousel__arrow--right {
+  display: none;
+}
+
+button.react-multiple-carousel__arrow.react-multiple-carousel__arrow--left {
+  display: none;
+}
+
+ul.react-multi-carousel-track {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+
+
+
+
+.styles-for-ellipsis {
+  display: -webkit-box;
+  -webkit-line-clamp: 4; /* Change the number to the maximum number of lines you want to display */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

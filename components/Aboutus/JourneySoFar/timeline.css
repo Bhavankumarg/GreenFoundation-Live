@@ -1,0 +1,4 @@
+.zoom-container {
+    transition: transform 0.3s ease-in-out; /* Add a smooth transition effect */
+    transform-origin: top left; /* Set the origin for the scaling effect */
+  }

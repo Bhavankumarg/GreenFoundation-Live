@@ -1,0 +1,127 @@
+@font-face {
+    font-family: 'Lato Regular';
+      src: url('/fonts/Lato/Lato-Regular.ttf') format('truetype');
+      font-weight: 400;
+  }
+  
+  .lato-regular {
+    font-family: 'Lato Regular';
+  }
+  
+  
+    body {
+      font-family: 'Lato Regular', sans-serif !important;
+      font-size: 18px !important;
+      line-height: 28px !important;
+      letter-spacing: 0.1px !important;
+    }
+  
+  
+  .container {
+    width:1140px !important;
+  }
+  
+  /* Container */
+  @media(max-width:767px) {
+  .container {
+    width:100% !important;
+  }
+  
+  }
+
+
+  /* Header */
+  .about-tap-bg {
+    background: #2E6339 !important;
+    border-radius: 10px;
+    display: inline-block;
+  }
+
+  .m-2.p-2.border.border-1.border-dark.rounded.col {
+    display: inline-block;
+}
+
+.custom-about-menu-header {
+    overflow-x: scroll;
+    overflow-y: hidden;
+  }
+
+.custom-row {
+    width:600px;
+  }
+
+  .text-green{
+    color: #126634;
+  }
+  
+  .bg-custom-green {
+    background: #126634;
+  }
+
+  .bg-custom-grey {
+    background: #F0F0F0;
+  }
+
+  /* tab reposts */
+
+  .react-tabs__tab--selected {
+    background: #fff;
+    border-color: #aaa;
+    color: black;
+    background: #F8D790;
+    border-radius: 20px;
+    border: 0;
+    padding: 6px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 1px solid  #F8D790 !important;
+}
+
+.react-tabs__tab-list {
+    border-bottom: 0px solid #aaa;
+    margin: 0 0 10px;
+    padding: 0;
+    text-align: center;
+}
+
+.react-tabs__tab {
+    font-size: 16px;
+    font-weight: 900 !important;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin-right: 10px;
+    padding: 2px 12px;
+}
+
+
+.pdf-customized{
+    height: 250px;
+    background-image: linear-gradient(180deg, #E0E5D7 42%, #F8D790 100%);
+}
+
+.hide-view-now {
+    display: none;
+}
+
+.custom-pdf-text-container{
+    height:180px;
+}
+
+.pdf-customized:hover .hide-view-now {
+    display: block;
+}
+
+.bank-details{
+    background-image: linear-gradient(180deg, #E0E5D7 42%, #F8D790 100%);
+}
+
+@media(max-width:767px) {
+    ul.react-tabs__tab-list {
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+    }
+    .react-tabs__tab {
+        margin: 10px;
+    }
+}

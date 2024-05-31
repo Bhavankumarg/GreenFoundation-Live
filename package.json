@@ -1,0 +1,26 @@
+{
+  "name": "greenfoundation",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 3004",
+    "build": "next build",
+    "start": "next start -p 3004",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "axios": "^1.5.0",
+    "bootstrap": "^5.3.1",
+    "bootstrap-icons": "^1.10.5",
+    "eslint": "8.47.0",
+    "eslint-config-next": "13.4.16",
+    "next": "13.4.16",
+    "next-seo": "^6.4.0",
+    "react": "18.2.0",
+    "react-bootstrap": "^2.8.0",
+    "react-dom": "18.2.0",
+    "react-multi-carousel": "^2.8.4",
+    "react-tabs": "^6.0.2",
+    "slugify": "^1.6.6"
+  }
+}

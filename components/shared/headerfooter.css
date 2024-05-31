@@ -1,0 +1,18 @@
+.dropdown-menu.show {
+    display: flex !important;
+    flex: column !important;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 260px !important;
+}
+
+a.header-links {
+    text-decoration: none !important;
+    color: black !important;
+    padding: 5px 15px !important;
+}
+
+a.header-links:hover {
+    background: #2E6339;
+    color: white !important;
+}
