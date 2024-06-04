@@ -9,6 +9,7 @@ import TrainingExposureHeader from './TrainingExposureHeader'
 import TrainingExposureBanner from './TrainingExposureBanner'
 import TrainingExposureContent from './TrainingExposureContent'
 import { NextSeo } from 'next-seo'
+import WebsiteSchema from './WebsiteSchema'
 
 
 
@@ -18,7 +19,7 @@ const index = () => {
 <NextSeo
       title="Training and Exposure Visits"
       description="Green Foundation’s training and exposure visits offer farmers the required knowledge and interactions with one another on sustainable agriculture, that empowers them as a community"
-      canonical="https://www.canonical.ie/"
+      canonical="https://greenfoundation.in/training-and-exposure-visits"
       openGraph={{
         url: 'https://www.url.ie/a',
         title: 'Training and Exposure Visits',
@@ -50,7 +51,7 @@ const index = () => {
       }}
     />
 
-
+    <WebsiteSchema/>
     <Header/>
     <TrainingExposureHeader />
     <TrainingExposureBanner />

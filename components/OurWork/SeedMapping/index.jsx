@@ -2,7 +2,7 @@ import React from 'react'
 
 import Header from '../../shared/Header'
 import Footer from '../../shared/Footer'
-
+import WebsiteSchema from './WebsiteSchema'
 import '../../Style'
 
 import SeedMappingHeader from './SeedMappingHeader'
@@ -17,7 +17,7 @@ const index = () => {
   <NextSeo
         title="Seed Mapping"
         description="The Seed Mapping project from Green Foundation has helped is determining the variety of indigenous seeds present within a particular area, resulting in better outcomes"
-        canonical="https://www.canonical.ie/"
+        canonical="https://greenfoundation.in/seed-mapping"
         openGraph={{
           url: 'https://www.url.ie/a',
           title: 'Seed Mapping',
@@ -48,7 +48,8 @@ const index = () => {
           cardType: 'summary_large_image',
         }}
       />
-
+   
+   <WebsiteSchema/>
    <Header />
    <SeedMappingHeader />
    <SeedMappingBanner />

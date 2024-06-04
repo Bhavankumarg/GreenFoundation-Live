@@ -8,6 +8,7 @@ import IncomeHeader from './IncomeHeader'
 import IncomeBanner from './IncomeBanner'
 import IncomeContent from './IncomeContent'
 import { NextSeo } from 'next-seo'
+import WebsiteSchema from './WebsiteSchema'
 
 
 const index = () => {
@@ -18,7 +19,7 @@ const index = () => {
 <NextSeo
       title="Livelihood Opportunities"
       description="In farming communities, Green Foundation facilitates training in handicraft making with an aim to increase the livelihood opportunities of farmers Here s how"
-      canonical="https://www.canonical.ie/"
+      canonical="https://greenfoundation.in/income-generation-programs"
       openGraph={{
         url: 'https://www.url.ie/a',
         title: 'Livelihood Opportunities',
@@ -50,6 +51,7 @@ const index = () => {
       }}
     />
 
+    <WebsiteSchema/>
     <Header />
     
     <IncomeHeader />

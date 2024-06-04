@@ -8,15 +8,15 @@ import SeedYatrasHeader from './SeedYatrasHeader'
 import SeedYatrasBanner from './SeedYatrasBanner'
 import SeedYatrasContent from './SeedYatrasContent'
 import { NextSeo } from 'next-seo'
-
+import WebsiteSchema from './WebsiteSchema'
 const index = () => {
   return (
     <>
 
 <NextSeo
         title="Seed yatras and fairs - Green Foundation"
-        description=""
-        canonical="https://www.canonical.ie/"
+        description="Explore India's vibrant cultural legacy and discover sustainable farming practices on our platform. Experience the innovative use of adorned bullock carts to promote awareness through music, dance, and theater, fostering empowerment among farmers by providing them with indigenous seeds for their fields."
+        canonical="https://greenfoundation.in/seed-yatras-and-fairs"
         openGraph={{
           url: 'https://www.url.ie/a',
           title: 'Seed yatras and fairs - Green Foundation',
@@ -48,6 +48,8 @@ const index = () => {
         }}
       />
 
+
+    <WebsiteSchema/>
     <Header />
     <SeedYatrasHeader />
     <SeedYatrasBanner />

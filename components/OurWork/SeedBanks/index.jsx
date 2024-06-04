@@ -8,14 +8,15 @@ import SeedBanksHeader from './SeedBanksHeader'
 import SeedBanksBanner from './SeedBanksBanner'
 import SeedBanksContent from './SeedBanksContent'
 import { NextSeo } from 'next-seo'
+import WebsiteSchema from './WebsiteSchema'
 
 const index = () => {
   return (
     <>
 <NextSeo
         title="Seed banks - Green Foundation"
-        description=""
-        canonical="https://www.canonical.ie/"
+        description="Community seed bank therefore is a system composed of all of the above. It is among the major strategies for maintaining genetic diversity in crop/plant species."
+        canonical="https://greenfoundation.in/seed-banks"
         openGraph={{
           url: 'https://www.url.ie/a',
           title: 'Seed banks - Green Foundation',
@@ -46,7 +47,7 @@ const index = () => {
           cardType: 'summary_large_image',
         }}
       />
-    
+    <WebsiteSchema/>
     <Header />
     <SeedBanksHeader />
     <SeedBanksBanner />

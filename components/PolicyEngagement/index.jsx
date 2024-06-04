@@ -4,6 +4,7 @@ import Header from '../shared/Header'
 import Footer from '../shared/Footer'
 import PolicyEngagementBanner from './PolicyEngagementBanner'
 import PolicyEngagementContent from './PolicyEngagementContent'
+import WebsiteSchema from './WebsiteSchema'
 
 import '../Style'
 import { NextSeo } from 'next-seo'
@@ -14,7 +15,7 @@ const index = () => {
     <NextSeo
         title="Our Policy Engagement"
         description="Read about Green Foundation s stance and focus on policies for a variety of topics including Hybrid seeds, Organic seeds, seed production and more"
-        canonical="https://www.canonical.ie/"
+        canonical="https://greenfoundation.in/policy-engagement"
         openGraph={{
           url: 'https://www.url.ie/a',
           title: 'Our Policy Engagement',
@@ -45,6 +46,7 @@ const index = () => {
           cardType: 'summary_large_image',
         }}
       />
+      <WebsiteSchema/>
     <Header />
     <PolicyEngagementBanner />
     <PolicyEngagementContent />

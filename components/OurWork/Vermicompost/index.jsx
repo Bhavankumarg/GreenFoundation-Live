@@ -9,6 +9,7 @@ import VermicompostHeader from './VermicompostHeader'
 import VermicompostBanner from './VermicompostBanner'
 import VermicompostContent from './VermicompostContent'
 import { NextSeo } from 'next-seo'
+import WebsiteSchema from './WebsiteSchema'
 
 const index = () => {
   return (
@@ -16,8 +17,8 @@ const index = () => {
 <NextSeo
       title="Vermicompost - Green Foundation
       "
-      description=""
-      canonical="https://www.canonical.ie/"
+      description="GREEN trains farmers to make and use vermicompost effectively within their own farms through rigorous training sessions that place great emphasis on quality."
+      canonical="https://greenfoundation.in/vermicompost"
       openGraph={{
         url: 'https://www.url.ie/a',
         title: 'Vermicompost - Green Foundation',
@@ -49,6 +50,7 @@ const index = () => {
       }}
     />
 
+  <WebsiteSchema/>
   <Header />
   <VermicompostHeader />
   <VermicompostBanner />

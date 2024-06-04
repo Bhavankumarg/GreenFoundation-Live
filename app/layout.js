@@ -4,16 +4,25 @@ import Script from 'next/script'
 
 //import Gtag from '../components/SeoComponents/GoogleAnalyticsCode'
 
-export const metadata = {
-  title: 'Agro-biodiversity conservation platform fostering sustainable agriculture',
-  description: 'Green Foundation works towards the conservation of indigenous seed varieties and helps promote sustainable agriculture through agro bio diversity conservation',
-}
+// export const metadata = {
+//   title: 'Agro-biodiversity conservation platform fostering sustainable agriculture',
+//   description: 'Green Foundation works towards the conservation of indigenous seed varieties and helps promote sustainable agriculture through agro bio diversity conservation',
+// }
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
 
-{/* <script strategy="afterInteractive" id="google-code"
+      <head>
+      <title>Agro-biodiversity conservation platform fostering sustainable agriculture</title>
+        <meta name="description" content="Green Foundation works towards the conservation of indigenous seed varieties and helps promote sustainable agriculture through agro bio diversity conservation"></meta>
+        <meta http-equiv="content-language" content="en"></meta>
+        <meta name="robots" content="index,follow"></meta>
+        <link rel="canonical" href="https://greenfoundation.in/" />
+
+      </head>
+
+      {/* <script strategy="afterInteractive" id="google-code"
         src={`https://www.googletagmanager.com/gtag/js?id='G-H8HNQPTQW0'`}>
       </script>
 
@@ -48,7 +57,7 @@ export default function RootLayout({ children }) {
           style={{ display: 'none', visibility: 'hidden' }}
         ></iframe>
       </noscript>
-      
+
 
       <body>
         {children}

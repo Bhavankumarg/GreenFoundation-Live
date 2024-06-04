@@ -7,7 +7,7 @@ import FarmHeader from './FarmHeader'
 import FarmBanner from './FarmBanner'
 import FarmContent from './FarmContent'
 import { NextSeo } from 'next-seo'
-
+import WebsiteSchema from './WebsiteSchema'
 
 const index = () => {
   return (
@@ -15,7 +15,7 @@ const index = () => {
 <NextSeo
       title="Boost Resilience with Farm Ponds: Sustainable Water Source"
       description="Discover how farm ponds empower farmers with reliable pond water for irrigation, reducing dependence on ground water and enhancing resilience to climate change"
-      canonical="https://www.canonical.ie/"
+      canonical="https://greenfoundation.in/farm-ponds"
       openGraph={{
         url: 'https://www.url.ie/a',
         title: 'Boost Resilience with Farm Ponds: Sustainable Water Source',
@@ -46,6 +46,7 @@ const index = () => {
         cardType: 'summary_large_image',
       }}
     />
+    <WebsiteSchema/>
     <Header />
         <FarmHeader />
         <FarmBanner />

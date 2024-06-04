@@ -4,6 +4,7 @@ import Header from '../shared/Header'
 import Footer from '../shared/Footer'
 import ResearchCommunicationBanner from './ResearchCommunicationBanner'
 import ResearchCommunicationContent from './ResearchCommunicationContent'
+import WebsiteSchema from './WebsiteSchema'
 
 import '../Style'
 import { NextSeo } from 'next-seo'
@@ -13,8 +14,8 @@ const index = () => {
     <>
     <NextSeo
         title="Research And Communication - Green Foundation"
-        description=""
-        canonical="https://www.canonical.ie/"
+        description="Explore the influence of research on sustainable agriculture and agrobiodiversity preservation via GREEN Foundation's initiatives focusing on value chains, indigenous seed diversity, and bolstering enterprises."
+        canonical="https://greenfoundation.in/research-and-communication"
         openGraph={{
           url: 'https://www.url.ie/a',
           title: 'Research And Communication - Green Foundation',
@@ -45,6 +46,7 @@ const index = () => {
           cardType: 'summary_large_image',
         }}
       />
+    <WebsiteSchema/>
     <Header />
     <ResearchCommunicationBanner />
     <ResearchCommunicationContent />

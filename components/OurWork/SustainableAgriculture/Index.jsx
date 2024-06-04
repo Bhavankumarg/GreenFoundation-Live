@@ -9,6 +9,7 @@ import SustainHeader from './SustainHeader'
 import SustainAgriBanner from './SustainAgriBanner'
 import SustainContent from './SustainContent'
 import { NextSeo } from 'next-seo'
+import WebsiteSchema from './WebsiteSchema'
 
 
 
@@ -19,7 +20,7 @@ const Index = () => {
 <NextSeo
       title="29 years of empowering small scale farmer communities"
       description="From empowering small scale farmers to initiating a growing biodiversity conservation programme, Green Foundation has taken a holistic approach to empower communities since 1994."
-      canonical="https://www.canonical.ie/"
+      canonical="https://greenfoundation.in/sustainable-agriculture"
       openGraph={{
         url: 'https://www.url.ie/a',
         title: '29 years of empowering small scale farmer communities',
@@ -50,7 +51,7 @@ const Index = () => {
         cardType: 'summary_large_image',
       }}
     />
-
+    <WebsiteSchema/>
     <Header />
     <SustainHeader />
     <SustainAgriBanner />

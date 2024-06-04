@@ -8,6 +8,7 @@ import SiltAppHeader from './SiltAppHeader'
 import SiltAppBanner from './SiltAppBanner'
 import SiltAppContent from './SiltAppContent'
 import { NextSeo } from 'next-seo'
+import WebsiteSchema from './WebsiteSchema'
 
 const index = () => {
   return (
@@ -15,8 +16,8 @@ const index = () => {
 
 <NextSeo
       title="Silt application - Green Foundation"
-      description=""
-      canonical="https://www.canonical.ie/"
+      description="Learn about the advantages of applying silt to Indian agriculture. Green Foundation guides the farmers to raise crop yields in a sustainable manner and enhance soil fertility. Explore our efforts in promoting indigenous agricultural practices."
+      canonical="https://greenfoundation.in/silt-application/"
       openGraph={{
         url: 'https://www.url.ie/a',
         title: 'Silt application - Green Foundation',
@@ -48,6 +49,7 @@ const index = () => {
       }}
     />
 
+    <WebsiteSchema/>
     <Header />
 
     <SiltAppHeader />

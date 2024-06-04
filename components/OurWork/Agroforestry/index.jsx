@@ -6,6 +6,7 @@ import Footer from '../../shared/Footer'
 import AgroforestryHeader from './AgroforestryHeader'
 import AgroforestryBanner from './AgroforestryBanner'
 import AgroforestryContent from './AgroforestryContent'
+import WebsiteSchema from './WebsiteSchema'
 
 import '../../Style'
 import { NextSeo } from 'next-seo'
@@ -16,7 +17,7 @@ const index = () => {
 <NextSeo
       title="Agroforestry - Green Foundation"
       description="Empowering communities to conserve biological diversity practice sustainable agriculture through community seed banks GREEN s pioneering efforts inspire nationwide impact"
-      canonical="https://www.canonical.ie/"
+      canonical="https://greenfoundation.in/agroforestry"
       openGraph={{
         url: 'https://www.url.ie/a',
         title: 'Agroforestry - Green Foundation',
@@ -48,6 +49,7 @@ const index = () => {
       }}
     />
 
+    <WebsiteSchema/>
     <Header />
         <AgroforestryHeader />
         <AgroforestryBanner />

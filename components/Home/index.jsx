@@ -31,8 +31,6 @@ const index = () => {
   const url = `${domainName}${pathname}`;
 
 
-
-
   return (
     <>
 

@@ -16,7 +16,7 @@ const index = () => {
   const pathname = usePathname();
 
   const pageTitle = "English Publication - Green Foundation";
-  const pageDescription = "";
+  const pageDescription = "Explore English publications on sustainable agriculture and environmental conservation by the Green Foundation. Access resources to foster eco-friendly practices.";
   const MetaImage = '';
   const url = `https://greenfoundation.in${pathname}`;
 

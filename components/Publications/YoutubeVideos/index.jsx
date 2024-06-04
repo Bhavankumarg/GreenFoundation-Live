@@ -16,7 +16,7 @@ const index = () => {
   const pathname = usePathname();
 
   const pageTitle = "GREEN’s work related videos - Green Foundation";
-  const pageDescription = "";
+  const pageDescription = "Discover Green Foundation's work with informative videos on sustainable agriculture, seed treatments, and more. Watch and learn how we promote eco-friendly farming practices.";
   const MetaImage = '';
   const url = `https://greenfoundation.in${pathname}`;
 

@@ -7,6 +7,7 @@ import '../Style'
 import CertificationBanner from './CertificationBanner'
 import CertificationContent from './CertificationContent'
 import { NextSeo } from 'next-seo'
+import WebsiteSchema from './WebsiteSchema'
 
 const index = () => {
   return (
@@ -14,7 +15,7 @@ const index = () => {
   <NextSeo
         title="Certification in Organic Farming"
         description="GREEN facilitates organic farming certification using a Participatory Guarantee System PGS which provides credibility for farmers and a higher rate for their produce"
-        canonical="https://www.canonical.ie/"
+        canonical="https://greenfoundation.in/certification"
         openGraph={{
           url: 'https://www.url.ie/a',
           title: 'Certification in Organic Farming',
@@ -45,6 +46,7 @@ const index = () => {
           cardType: 'summary_large_image',
         }}
       />
+      <WebsiteSchema/>
     <Header />
     <CertificationBanner />
     <CertificationContent />
