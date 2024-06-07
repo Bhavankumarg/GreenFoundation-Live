@@ -15,7 +15,6 @@ import { usePathname } from 'next/navigation';
 
 
 
-
 const index = () => {
 
   const pathname = usePathname();
@@ -36,7 +35,7 @@ const index = () => {
 
       <SeoTags pageTitle={pageTitle} pageDescription={pageDescription} MetaImage={MetaImage} url={url} />
 
-
+      
       <Header />
 
       <JourneyHeader />

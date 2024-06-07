@@ -18,7 +18,7 @@ function SeoTags({ pageTitle, pageDescription, MetaImage, url, }) {
         "@context": "https://schema.org/",
         "@type": "website",
         "name": "greenfoundation",
-        "url": `${url}`,
+        "url": `https://greenfoundation.in/`,
         "potentialAction": {
             "@type": "SearchAction",
             "target": `${url}/{ search_term_string }`,
