@@ -8,7 +8,7 @@ const WebsiteSchema = () => {
     "url": "https://greenfoundation.in/",
     "potentialAction": {
       "@type": "SearchAction",
-      "target": "https://greenfoundation.in/contact/{search_term_string}",
+      "target": "https://greenfoundation.in/contact-us/{search_term_string}",
       "query-input": "required name=search_term_string"
     }
   };

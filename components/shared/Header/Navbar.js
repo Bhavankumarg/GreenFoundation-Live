@@ -58,7 +58,7 @@ const Header = () => {
                                 <Link href="/our-stories" className='header-links'>Stories from the Field</Link>
                                 <Link href="/greens-work-related-videos" className='header-links'>Videos</Link>
                             </NavDropdown>
-                            <Link href='/contact'
+                            <Link href='/contact-us'
                                 className=' text-decoration-none'
                             >
                                 <p

@@ -16,7 +16,7 @@ const index = () => {
       <NextSeo
         title="Contact - Green Foundation"
         description=""
-        canonical="https://greenfoundation.in/contact"
+        canonical="https://greenfoundation.in/contact-us"
         openGraph={{
           url: 'https://www.url.ie/a',
           title: 'Contact - Green Foundation',

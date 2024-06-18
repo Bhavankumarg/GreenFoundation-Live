@@ -157,17 +157,17 @@ const ContactForm = () => {
                     <Col style={{ background: '#ecf1e4' }} className='p-4 d-flex flex-column justify-content-center align-items-center align-content-center rounded-3'>
                         <h5 className='text-green fw-bolder'>REGISTERED OFFICE</h5>
                         <Image src='/contact_form_img.svg' alt='' className=' mt-4' width={200} />
-                        <h2 className='mt-3'>
+                        <h1 className='mt-3 fs-2'>
                             Bengaluru
-                        </h2>
+                        </h1>
                         <p>
                             #36, Vinayaka Layout, Bhoopasandra Main Road, Bhoopasandra, Bengaluru – 560094. India
                         </p>
                     </Col>
 
-                    <h4>Our Email</h4>
+                    <h2 className='fs-4'>Our Email</h2>
 
-                    <h5 className='fw-bolder d-block w-100 p-2 rounded-3' style={{ background: '#ecf1e4' }}>contact@greenfoundation.in</h5>
+                    <h3 className='fw-bolder d-block w-100 p-2 rounded-3 fs-5' style={{ background: '#ecf1e4' }}>contact@greenfoundation.in</h3>
                 </Col>
             </Row>
         </Container >
