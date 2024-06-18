@@ -8,6 +8,7 @@ import ContactForm from './ContactForm'
 import { NextSeo } from 'next-seo'
 import AutoLayoutExample from './Contactus'
 import Contact7Form from './Contact7Form'
+import WebsiteSchema from './WebsiteSchema'
 
 const index = () => {
   return (
@@ -15,7 +16,7 @@ const index = () => {
       <NextSeo
         title="Contact - Green Foundation"
         description=""
-        canonical="https://www.canonical.ie/"
+        canonical="https://greenfoundation.in/contact"
         openGraph={{
           url: 'https://www.url.ie/a',
           title: 'Contact - Green Foundation',
@@ -46,6 +47,7 @@ const index = () => {
           cardType: 'summary_large_image',
         }}
       />
+      <WebsiteSchema/>
       <Header />
       <ContactForm />
       {/* <AutoLayoutExample /> */}
