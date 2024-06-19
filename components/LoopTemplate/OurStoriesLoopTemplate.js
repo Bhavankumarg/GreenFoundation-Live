@@ -29,13 +29,13 @@ const OurStoriesLoopTemplate = () => {
                             <Link href={`/our_stories/${slugify(item.title, { lower: true })}`}>
                             </Link>
                             <div>
-                                <h4 className='our-stories-head-loop-font'>{item.title}</h4>
+                                <h2 className='our-stories-head-loop-font fs-4'>{item.title}</h2>
                                 <p className='our-stories-para-loop-font'> {item.excerpt}</p>
                             </div>
                         </Col>
                         <div className='english-pblication-btn'>
                             <Link href={`/our_stories/${slugify(item.title, { lower: true })}`} className='text-decoration-none'>
-                                <h6 className='our-storis-btn-loop-font rounded-1'>Read More</h6>
+                                <h3 className='our-storis-btn-loop-font rounded-1 fs-6'>Read More</h3>
                             </Link>
                         </div>
                     </Row>

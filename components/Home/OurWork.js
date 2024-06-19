@@ -24,7 +24,7 @@ const OurWork = () => {
                         <p className='text-white mb-0'>Sustainable agriculture is the production of plant and animal products in a way that uses farming techniques to protect the environment…</p>
                     </Col>
                     <Col className='research-bg-home p-4 d-flex flex-column justify-content-center'>
-                        <h2 className='text-white'>Research and Communication</h2>
+                        <h4 className='text-white fs-2'>Research and Communication</h4>
                         <p className='text-white mb-0'>Research enables us to achieve our goals in Sustainable Agriculture and Agro-biodiversity conservation.</p>
                     </Col>
                 </Row>

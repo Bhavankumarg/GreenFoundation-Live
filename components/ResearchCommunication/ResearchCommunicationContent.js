@@ -14,9 +14,9 @@ const ResearchCommunicationContent = () => {
             <Container fluid className='reseach-custom-bg-contanier'>
                 <Container className='p-0 d-flex flex-column align-items-center gap-3 py-4 text-md-center text-start'>
                     <Col md={9}>
-                        <h4 className='text-green fw-bolder'>
+                        <h2 className='text-green fw-bolder fs-4'>
                             Research Enables Us to Achieve Our Goals in Sustainable Agriculture and Agrobiodiversity Conservation.
-                        </h4>
+                        </h2>
                     </Col>
 
                     <Row className='p-4 rounded-4' style={{ background: '#F8D790A3' }}>
@@ -50,9 +50,9 @@ const ResearchCommunicationContent = () => {
                         </Col>
                     </Row>
 
-                    <h4 className='fw-bolder text-green'>
+                    <h3 className='fw-bolder text-green fs-4'>
                         Changing Farming Lives in South India, Past and Present
-                    </h4>
+                    </h3>
 
                     <Col md={6}>
                         <iframe width="700" height="400" src="https://www.youtube.com/embed/Ym2uEcW4CPw" title="David Araku" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen className='research-yt-video'></iframe>

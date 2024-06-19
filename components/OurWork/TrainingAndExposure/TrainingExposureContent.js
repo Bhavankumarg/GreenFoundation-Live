@@ -12,7 +12,7 @@ const TrainingExposureContent = () => {
             <Container fluid className='training-exposure-custom-container' >
                 <Container className='text-center py-5'>
 
-                    <h4 className='text-green'>Training</h4>
+                    <h2 className='text-green fs-4'>Training</h2>
 
                     <p>GREEN conducts training within communities so that they are empowered to adopt sustainable agricultural practices. Over 450 training sessions have been held in 2011 alone through our efforts. These workshops include teaching farmers how to make biopesticides and organic fertilizers such as vermicompost, training them on practices such as the Guli method for ragi cultivation and the SRI method for dry land paddy cultivation, educating them on proper seed storage and crop improvement techniques, among many others.</p>
 
@@ -29,7 +29,7 @@ const TrainingExposureContent = () => {
                             <p className='p-4'>Sustainable agriculture is the production of plant and animal products in a way that uses farming techniques to protect the environment, ensure social and economic equity as well as gain economic profitability.</p>
                         </Col>
 
-                        <h4 className='text-green pt-4'>Exposure Visits</h4>
+                        <h3 className='text-green pt-4 fs-4'>Exposure Visits</h3>
                         <p className='pt-4 p-0'>Exposure visits enable farmers from different regions to interact with and learn from each other, allowing them to view practical examples of successful integration of sustainable practices in farming communities like their own. They are integral to sensitizing the farmer to GREEN’s message of sustainable agriculture. “We had heard of seed banks from GF staff before but we understood the concept only after they took us to a community seed bank. As soon as we saw it, we were very eager to start one in our village,” says Jayamma of Kanavemadhapura.</p>
 
                         <p className='pt-4 p-0'>GREEN facilitates approximately 6 to 8 exposure visits per year. These visits also include rare variety demonstrations that inform farmers of the characteristics and advantages of indigenous crops.</p>

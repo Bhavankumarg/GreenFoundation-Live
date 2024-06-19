@@ -10,7 +10,7 @@ const CertificationContent = () => {
         <>
             <Container fluid style={{ background: '#E0E5D7' }}>
                 <Container className='p-0 py-5 text-md-center text-start'>
-                    <h4 className='text-green fw-bolder'>Participatory Guarantee System (PGS)</h4>
+                    <h2 className='text-green fw-bolder fs-4'>Participatory Guarantee System (PGS)</h2>
 
                     <Row className='d-flex flex-md-row flex-column align-items-center my-4' style={{ background: '#F8D790' }} >
                         <Col className='p-0 custom-'>
@@ -29,7 +29,7 @@ const CertificationContent = () => {
             </Container>
 
             <Container className='p-0 py-5 text-md-center text-start d-flex flex-column align-items-center gap-md-4 gap-3'>
-                <h4 className='text-green fw-bolder'>PGS Certification Process</h4>
+                <h3 className='text-green fw-bolder fs-4'>PGS Certification Process</h3>
 
                 <Col className='p-3 rounded-4 text-white' style={{ background: '#7B9F44' }}>
                     <h4 className=''>Guidelines</h4>

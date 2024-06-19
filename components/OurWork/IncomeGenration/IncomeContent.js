@@ -41,7 +41,7 @@ const IncomeContent = () => {
                     <Row className='pt-2 p-0 d-flex flex-md-row flex-column'>
                         <Col md={6} className='p-0'>
                             <Col className='process-bg-1 p-0 d-flex flex-row align-items-center justify-content-center m-2' >
-                                <h1 className='hide-text p-4 text-white'>Sri Maruthi Oil Producer Group</h1>
+                                <h2 className='hide-text p-4 text-white fs-1'>Sri Maruthi Oil Producer Group</h2>
                                 <Col className='process-bg-1-hover p-0'>
                                     <Col className='p-0 p-4'>
                                         <div className='divider-top'></div>
@@ -60,12 +60,12 @@ const IncomeContent = () => {
 
                         <Col md={6} className='p-0'>
                             <Col className='process-bg-2 p-0 d-flex flex-row align-items-center justify-content-center m-2' >
-                                <h1 className='hide-text-2 p-4 text-white'>Sri Parvathi Papad Making Group  </h1>
+                                <h4 className='hide-text-2 p-4 text-white fs-1'>Sri Parvathi Papad Making Group  </h4>
                                 <Col className='process-bg-2-hover p-0'>
                                     <Col className='p-0 p-4'>
                                         <div className='divider-top'></div>
                                         <Col className='p-3'>
-                                            <h5 className='fw-bolder'> Sri Parvathi Papad Making Group </h5>
+                                            <h3 className='fw-bolder fs-5'> Sri Parvathi Papad Making Group </h3>
                                             <p>We have facilitated the formation of a papad making group called Sri Parvathi Happala Uthpadakara Sangha in Hunasanahalli. Eleven members from the community have joined this group and have made a total contribution of Rs.50,000. They have also managed to secure a building to set up this producer group. A solar dryer has been installed in this building for the drying of papads. Apart from this, papad pressing machines and grinders have been provided.</p>
                                         </Col>
                                         <div className='bottom-divider w-100'>
@@ -78,7 +78,7 @@ const IncomeContent = () => {
 
                         <Col md={6} className='p-0'>
                             <Col className='process-bg-3 p-0 d-flex flex-row align-items-center justify-content-center m-2' >
-                                <h1 className='hide-text-3 p-4 text-white'>Sri Durgashree Chandrike Adyothpana Sangha</h1>
+                                <h2 className='hide-text-3 p-4 text-white fs-1'>Sri Durgashree Chandrike Adyothpana Sangha</h2>
                                 <Col className='process-bg-3-hover p-0'>
                                     <Col className='p-0 p-4'>
                                         <div className='divider-top'></div>
@@ -96,7 +96,7 @@ const IncomeContent = () => {
 
                         <Col md={6} className='p-0'>
                             <Col className='process-bg-4 p-0 d-flex flex-row align-items-center justify-content-center m-2' >
-                                <h1 className='hide-text-4 p-4 text-white'>Sri Kaveramma Vermicompost Producer Group</h1>
+                                <h6 className='hide-text-4 p-4 text-white fs-1'>Sri Kaveramma Vermicompost Producer Group</h6>
                                 <Col className='process-bg-4-hover p-0'>
                                     <Col className='p-0 p-4'>
                                         <div className='divider-top'></div>
@@ -114,12 +114,12 @@ const IncomeContent = () => {
 
                         <Col md={6} className='p-0'>
                             <Col className='process-bg-5 p-0 d-flex flex-row align-items-center justify-content-center m-2' >
-                                <h1 className='hide-text-5 p-4 text-white'>Sri Muneshwara Vermicompost and Liquid Input Producer Group</h1>
+                                <h5 className='hide-text-5 p-4 text-white fs-1'>Sri Muneshwara Vermicompost and Liquid Input Producer Group</h5>
                                 <Col className='process-bg-5-hover p-0'>
                                     <Col className='p-0 p-4'>
                                         <div className='divider-top'></div>
                                         <Col className='p-3'>
-                                            <h5 className='fw-bolder'>Sri Muneshwara Vermicompost and Liquid Input Producer Group</h5>
+                                            <h5 className='fw-bolder '>Sri Muneshwara Vermicompost and Liquid Input Producer Group</h5>
                                             <p>During the reporting period,we have formed Sri Muneshwara Savayava Parikara Uttpadakara Sangha in Bevanamaradadoddi village. This group comprises 10 members. Each member contributed Rs. 2000 and towards production of vermicompost and construction of vermi compost pits. Additionally, Janadhanya has provided monetary support of Rs.35,000. Based on business expansion, members have agreed to contribute some more money towards the venture. Some of the members have also agreed to construct vermicompost pits in their own lands and have shown interest in preparing other organic inputs.</p>
                                         </Col>
                                         <div className='bottom-divider w-100'>
@@ -132,7 +132,7 @@ const IncomeContent = () => {
 
                         <Col md={6} className='p-0'>
                             <Col className='process-bg-6 p-0 d-flex flex-row align-items-center justify-content-center m-2' >
-                                <h1 className='hide-text-6 p-4 text-white'>Sri Ambha Bhavani Cloth Bag Making Group</h1>
+                                <h5 className='hide-text-6 p-4 text-white fs-1'>Sri Ambha Bhavani Cloth Bag Making Group</h5>
                                 <Col className='process-bg-6-hover p-0'>
                                     <Col className='p-0 p-4'>
                                         <div className='divider-top'></div>
@@ -151,7 +151,7 @@ const IncomeContent = () => {
 
                         <Col md={6} className='p-0'>
                             <Col className='process-bg-7 p-0 d-flex flex-row align-items-center justify-content-center m-2' >
-                                <h1 className='hide-text-7 p-4 text-white'>Sri Jayalakshmi Chandrike Rent Out Group</h1>
+                                <h5 className='hide-text-7 p-4 text-white fs-1'>Sri Jayalakshmi Chandrike Rent Out Group</h5>
                                 <Col className='process-bg-7-hover p-0'>
                                     <Col className='p-0 p-4'>
                                         <div className='divider-top'></div>

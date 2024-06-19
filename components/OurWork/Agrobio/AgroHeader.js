@@ -22,7 +22,7 @@ const AgroHeader = () => {
                     <Col className='m-2 p-2 border border-1 border-dark rounded'>
                         <Link href="/in-situ-and-ex-situ-conservation" className='text-decoration-none d-flex flex-row '>
                             <Image src='/our-work/menu-icons/situ_conservation_black.svg' alt='' />
-                            <h6 className='m-0 p-2 text-dark'>In-situ and Ex-situ Conservation</h6>
+                            <h2 className='m-0 p-2 text-dark fs-6'>In-situ and Ex-situ Conservation</h2>
                         </Link>
                     </Col>
                     <Col className='m-2 p-2 border border-1 border-dark rounded'>

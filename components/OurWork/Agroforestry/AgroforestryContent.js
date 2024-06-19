@@ -5,7 +5,7 @@ import { Col, Container, Row } from 'react-bootstrap'
 
 import '../ourwork.css'
 
-const AgroforestryContent = () => {
+const   AgroforestryContent = () => {
     return (
         <Container fluid>
             <Container className='p-0 py-5 text-md-center text-start '>

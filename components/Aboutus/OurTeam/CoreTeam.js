@@ -15,7 +15,7 @@ const CoreTeam = () => {
                     </Col>
                     <Col className='core-team-text-green'>
                         <h2>Vanaja Ramprasad</h2>
-                        <h5><b>Founder</b></h5>
+                        <h3 className='fs-5'><b>Founder</b></h3>
                     </Col>
                     <p className='p-0 py-2 mb-0'>Vanaja Ramprasad, PhD: the Founding Trustee of GREEN Foundation, she has tirelessly contributed to the growth of the organization without expecting monetary benefits except a small honorarium. Her commitment to the cause has been the major force behind what the organization has achieved in the last fifteen years in the face of many difficulties. In recognition of the hard and tireless work Dr.Vanaja Ramprasad was invited to receive the Equator Initiative award in 2004, was given the “Woman in vocation award” by the Rotary in 1997 and “for the sake of Honour” in 2004 by the Rotary. She has been selected as one of the world board members of the “International Federation of Organic Agriculture Movement” and was invited by the IAASTD to be a lead author in the world wide event to prepare the document on Science Technology and Development impacting agriculture.
                     </p>

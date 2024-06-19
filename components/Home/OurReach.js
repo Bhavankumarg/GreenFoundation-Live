@@ -10,7 +10,7 @@ const OurReach = () => {
             <Container fluid className='our-reach-banner d-flex flex-wrap flex-column justify-content-between'>
                 <Container className='pt-4 w-100'>
                     <Row>
-                        <h1 className='text-center text-white fw-bold'>Our Reach</h1>
+                        <h1 className='text-center text-white fw-bold fs-1'>Our Reach</h1>
                         <p className='text-center text-white'>The five project sites of GREEN along with the number of farmers it impacts are as follows:</p>
                     </Row>
                 </Container>
@@ -18,7 +18,7 @@ const OurReach = () => {
                     <Row className='our-reach-main-container d-flex flex-md-row flex-column align-items-end'>
                         <Col className='ka-our-reach m-2 mb-0'>
                             <Image src='/home/our-reach/karnataka.svg' alt='karnataka' height={150} className='py-4' />
-                            <h3 className='text-white custom-reach-para'>Karnataka</h3>
+                            <h2 className='text-white custom-reach-para fs-3'>Karnataka</h2>
 
                             <Col className='green-bg-our-reach'>
                                 <p className='text-white custom-reach-para'>Ramanagara District, Kanakapura Taluk – Community Seed Bank, Regenarative Agriculture and Bio-input Resource Centre</p>
