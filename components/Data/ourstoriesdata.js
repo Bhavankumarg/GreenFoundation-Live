@@ -70,7 +70,7 @@ const posts = [
     },
 
     {
-        title: 'Sujathamma: Individual Seed Saver',
+        title: 'Sujathamma Individual Seed Saver',
         image: '/publications/our-stories/sujathamma.png',
         imagebanner: '/publications/our-stories/sujathamma_banner.png',
         date: 'February 8, 2023',
