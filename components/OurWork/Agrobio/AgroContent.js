@@ -1,9 +1,31 @@
 'use client'
 
+import Carousel from "react-multi-carousel";
+import "react-multi-carousel/lib/styles.css";
+
 import React from 'react'
 import { Container, Image, Row, Col } from 'react-bootstrap'
 
 const AgroContent = () => {
+
+    const responsive = {
+        desktop: {
+            breakpoint: { max: 3000, min: 1024 },
+            items: 3,
+            slidesToSlide: 1 // Change to 1 for smoother transition
+        },
+        tablet: {
+            breakpoint: { max: 1024, min: 464 },
+            items: 2,
+            slidesToSlide: 1 // Change to 1 for smoother transition
+        },
+        mobile: {
+            breakpoint: { max: 464, min: 0 },
+            items: 1,
+            slidesToSlide: 1 // Change to 1 for smoother transition
+        }
+    };
+
     return (
         <>
             <Container className='py-5 text-center'>
@@ -44,35 +66,92 @@ const AgroContent = () => {
                     </Col>
 
 
-                    <div className='community-row'>
-                        <Row className='community-scroll d-flex flex-column flex-wrap flex-md-row p-2'>
-                            <Col className='community-seed-bank' >
-                                <Image src='/our-work/agrobio/slider_icon_1.svg' alt='' />
-                                <p className='community-para text-white'>There are currently three CSBs in Kanakapura Taluk which combinedly has 142 varieties of Ragi and minor millet, 78 varieties of Paddy, 19 varieties of vegetables, 7 varieties of pulses and 9 varieties of oilseeds.
-                                </p>
-                            </Col>
-                            <Col className='community-seed-bank'>
-                                <Image src='/our-work/agrobio/community_seed_banks_icon_slider.svg' alt='' />
-                                <p className='community-para text-white'>Through collaboration with 11 other NGOs, GREEN has also initiated the setting up of 34 seed banks in 9 of Karnataka’s 10 agro-climatic zones. These seed banks formed a Community Seed Bank Network (CSBN) developed to address the dire need for agrobiodiversity conservation in Karnataka.
-                                </p>
-                            </Col>
-                            <Col className='community-seed-bank'>
-                                <Image src='/our-work/agrobio/rupee_slider.svg' alt='' />
-                                <p className='community-para text-white'>GREEN’s pioneering efforts at biodiversity has galvanized whole communities to spread its message of sustainability. The effectiveness of these seed banks has influenced the Karnataka Govt. to fund the establishment of CSBs throughout the state.
-                                </p>
-                            </Col>
-                            <Col className='community-seed-bank'>
-                                <Image src='/our-work/agrobio/slider_icon_1.svg' alt='' />
-                                <p className='community-para text-white'>GREEN started its CSB in Pudukkottai at Tamil Nadu and Kalaburigi in Karnataka. Both the places Women farmers saving their indigenous varieties of Millets, Paddy, oil seeds, vegetable seeds, and pulses.
-                                </p>
-                            </Col>
-                            <Col className='community-seed-bank'>
-                                <Image src='/our-work/agrobio/slider_icon_2.svg' alt='' />
-                                <p className='community-para text-white'>CSBs have proved to be more than just seed repositories. They have provided a platform for community members to set up alternate income generating schemes. The information sharing that often takes place at seed bank meetings raises awareness of sustainable agriculture within a community. Through these meetings, many more farmers are persuaded to adopt organic farming practices.
-                                </p>
-                            </Col>
-                        </Row>
-                    </div>
+                    <Col className='py-4'>
+                        <Carousel
+                            swipeable={false}
+                            draggable={false}
+                            showDots={true}
+                            responsive={responsive}
+                            ssr={true} // means to render carousel on server-side.
+                            infinite={true}
+                            autoPlay={true}
+                            autoPlaySpeed={3000} // Speed in milliseconds
+                            keyBoardControl={true}
+                            customTransition="transform 0.5s ease-in-out" // Custom transition effect
+                            transitionDuration={500} // Transition duration in milliseconds
+                            containerClass="carousel-container"
+                            removeArrowOnDeviceType={["tablet", "mobile"]}
+                            dotListClass="custom-dot-list-style"
+                            itemClass="carousel-item-padding-40-px"
+                        >
+                            <div className=''>
+                                <Col className='community-seed-bank' >
+                                    <Image src='/our-work/agrobio/slider_icon_1.svg' alt='' />
+                                    <p className='community-para text-white'>There are currently three CSBs in Kanakapura Taluk which combinedly has 142 varieties of Ragi and minor millet, 78 varieties of Paddy, 19 varieties of vegetables, 7 varieties of pulses and 9 varieties of oilseeds.
+                                    </p>
+                                </Col>
+                            </div>
+                            <div className=''>
+                                <Col className='community-seed-bank'>
+                                    <Image src='/our-work/agrobio/community_seed_banks_icon_slider.svg' alt='' />
+                                    <p className='community-para text-white'>Through collaboration with 11 other NGOs, GREEN has also initiated the setting up of 34 seed banks in 9 of Karnataka’s 10 agro-climatic zones. These seed banks formed a Community Seed Bank Network (CSBN) developed to address the dire need for agrobiodiversity conservation in Karnataka.
+                                    </p>
+                                </Col>
+                            </div>
+                            <div className=''>
+                                <Col className='community-seed-bank'>
+                                    <Image src='/our-work/agrobio/rupee_slider.svg' alt='' />
+                                    <p className='community-para text-white'>GREEN’s pioneering efforts at biodiversity has galvanized whole communities to spread its message of sustainability. The effectiveness of these seed banks has influenced the Karnataka Govt. to fund the establishment of CSBs throughout the state.
+                                    </p>
+                                </Col>
+                            </div>
+                            <div className=''>
+                                <Col className='community-seed-bank'>
+                                    <Image src='/our-work/agrobio/slider_icon_1.svg' alt='' />
+                                    <p className='community-para text-white'>GREEN started its CSB in Pudukkottai at Tamil Nadu and Kalaburigi in Karnataka. Both the places Women farmers saving their indigenous varieties of Millets, Paddy, oil seeds, vegetable seeds, and pulses.
+                                    </p>
+                                </Col>
+                            </div>
+                            <div className=''>
+                                <Col className='community-seed-bank'>
+                                    <Image src='/our-work/agrobio/slider_icon_2.svg' alt='' />
+                                    <p className='community-para text-white'>CSBs have proved to be more than just seed repositories. They have provided a platform for community members to set up alternate income generating schemes. The information sharing that often takes place at seed bank meetings raises awareness of sustainable agriculture within a community. Through these meetings, many more farmers are persuaded to adopt organic farming practices.
+                                    </p>
+                                </Col>
+                            </div>
+                        </Carousel>
+
+
+                        {/* <div className='community-row'>
+                            <Row className='community-scroll d-flex flex-column flex-wrap flex-md-row p-2'>
+                                <Col className='community-seed-bank' >
+                                    <Image src='/our-work/agrobio/slider_icon_1.svg' alt='' />
+                                    <p className='community-para text-white'>There are currently three CSBs in Kanakapura Taluk which combinedly has 142 varieties of Ragi and minor millet, 78 varieties of Paddy, 19 varieties of vegetables, 7 varieties of pulses and 9 varieties of oilseeds.
+                                    </p>
+                                </Col>
+                                <Col className='community-seed-bank'>
+                                    <Image src='/our-work/agrobio/community_seed_banks_icon_slider.svg' alt='' />
+                                    <p className='community-para text-white'>Through collaboration with 11 other NGOs, GREEN has also initiated the setting up of 34 seed banks in 9 of Karnataka’s 10 agro-climatic zones. These seed banks formed a Community Seed Bank Network (CSBN) developed to address the dire need for agrobiodiversity conservation in Karnataka.
+                                    </p>
+                                </Col>
+                                <Col className='community-seed-bank'>
+                                    <Image src='/our-work/agrobio/rupee_slider.svg' alt='' />
+                                    <p className='community-para text-white'>GREEN’s pioneering efforts at biodiversity has galvanized whole communities to spread its message of sustainability. The effectiveness of these seed banks has influenced the Karnataka Govt. to fund the establishment of CSBs throughout the state.
+                                    </p>
+                                </Col>
+                                <Col className='community-seed-bank'>
+                                    <Image src='/our-work/agrobio/slider_icon_1.svg' alt='' />
+                                    <p className='community-para text-white'>GREEN started its CSB in Pudukkottai at Tamil Nadu and Kalaburigi in Karnataka. Both the places Women farmers saving their indigenous varieties of Millets, Paddy, oil seeds, vegetable seeds, and pulses.
+                                    </p>
+                                </Col>
+                                <Col className='community-seed-bank'>
+                                    <Image src='/our-work/agrobio/slider_icon_2.svg' alt='' />
+                                    <p className='community-para text-white'>CSBs have proved to be more than just seed repositories. They have provided a platform for community members to set up alternate income generating schemes. The information sharing that often takes place at seed bank meetings raises awareness of sustainable agriculture within a community. Through these meetings, many more farmers are persuaded to adopt organic farming practices.
+                                    </p>
+                                </Col>
+                            </Row>
+                        </div> */}
+                    </Col>
 
                 </Container>
             </Container>

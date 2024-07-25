@@ -8,9 +8,9 @@ import '../../Style'
 import { NextSeo } from 'next-seo'
 
 const index = () => {
-  return (
-    <>
-        <NextSeo
+    return (
+        <>
+            <NextSeo
                 title="Seed Fair - Green Foundation"
                 description="Traditional seed fair was celebrated in Tamil Nadu, Pudukkottai district on 08 05 2018 GREEN Foundation and Vrutti jointly worked with three FPOs to set up a Community Seed Bank called Makarantham Community Seed Bank Makarantham CSB members fully participated and…"
                 canonical="https://www.canonical.ie/"
@@ -45,11 +45,11 @@ const index = () => {
                 }}
             />
 
-    <Header />
-    <SeedFair />
-    <Footer />
-    </>
-  )
+            <Header />
+            <SeedFair />
+            <Footer />
+        </>
+    )
 }
 
 export default index

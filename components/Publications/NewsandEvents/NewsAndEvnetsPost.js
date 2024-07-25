@@ -35,7 +35,7 @@ const NewsAndEvnetsPost = () => {
             result = await result.json();
 
             setData(result);
-            console.log(result);
+            // console.log(result);
         } catch (error) {
             console.log('Error fetching data: ', error);
         }

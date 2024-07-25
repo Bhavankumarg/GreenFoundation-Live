@@ -25,10 +25,6 @@ const SeedFair = () => {
                             <p>Traditional seed fair was celebrated in Tamil Nadu, Pudukkottai district on 08-05-2018.GREEN Foundation and Vrutti jointly worked with three FPOs to set up a Community Seed Bank called Makarantham Community Seed Bank. Makarantham CSB members fully participated and…</p>
                         </Col>
 
-
-                        <Col className='py-md-0 py-5'>
-                            <h2>Related</h2>
-                        </Col>
                     </Row>
                 </Container>
             </Container>

@@ -104,6 +104,27 @@ ul.d-flex.flex-column {
   margin-left: -40px;
 }
 
+@media(max-width:767px) {
+  ul.d-flex.flex-column {
+    min-height: auto;
+    max-height: auto;
+    background: #2E6339;
+    display: flex !important;
+    flex-direction: row !important;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 0 !important;
+    border-radius: 20px;
+    margin-left: 0px;
+}
+
+  .d-md-flex.custom-tab-deisgn.py-md-5 {
+    border: 0px !important; 
+    border-radius: 20px;
+  }
+}
+
 .react-tabs__tab {
   border: 0px solid transparent !important;
   padding: 20px 12px !important;

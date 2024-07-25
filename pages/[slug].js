@@ -15,6 +15,7 @@ import config from '../config.json'
 export default function Page() {
     const router = useRouter()
     const [data, setData] = useState([]);
+    const [data1, setData1] = useState([]);
     const slug = router.query.slug;
 
     const URL_SEO = `${config.apiDomain}posts/${slug}&_embed`;
@@ -35,7 +36,23 @@ export default function Page() {
     useEffect(() => {
 
         FetchPost();
-    }, [slug])
+    }, [slug]);
+
+    const loadData = async () => {
+        try {
+            let result = await fetch(`${config.apiDomain}posts?_embed&per_page=1`);
+            result = await result.json();
+
+            setData1(result);
+            // console.log(result);
+        } catch (error) {
+            console.log('Error fetching data: ', error);
+        }
+    };
+
+    useEffect(() => {
+        loadData();
+    }, []);
 
 
     const formatPublishedDate = (dateString) => {
@@ -88,7 +105,7 @@ export default function Page() {
                     <Row className='p-0 '>
                         <Col md={8} className='d-flex flex-column gap-2'>
 
-                            {data.map((items) => (
+                            {data1.map((items) => (
                                 <div key={items.id}>
                                     <Image src={items._embedded['wp:featuredmedia'][0].source_url} alt={items.title.rendered} fluid />
                                     <div className='py-2'>
@@ -110,7 +127,33 @@ export default function Page() {
 
 
                         <Col className='py-md-0 py-5'>
-                            <h2>Related</h2>
+                            <h2>Latest</h2>
+
+                            {data.map((story) => (
+
+                                <Col key={story.id} className='align-self-lg-stretch p-4' >
+                                    <Image src={story._embedded['wp:featuredmedia'][0].source_url} alt={story.title.rendered} fluid />
+                                    <div className='py-2'>
+                                        <h4 dangerouslySetInnerHTML={{ __html: story.title.rendered }} />
+                                    </div>
+
+                                    <p style={{ fontSize: '11px !important', color: '#126634' }}> {formatPublishedDate(story.date)} | News & Events</p>
+
+                                    <div className='p-1'>
+                                        <p dangerouslySetInnerHTML={{ __html: story.excerpt.rendered }}
+                                            className='font16px'
+                                        />
+                                    </div>
+
+                                    <Link
+                                        href={`/${story.slug}`}
+                                        className='text-decoration-none px-3 p-2 text-white rounded-2'
+                                        style={{ background: '#2e6339', fontSize: '16px' }}
+                                    >
+                                        Read More
+                                    </Link>
+                                </Col>
+                            ))}
                         </Col>
                     </Row>
                 </Container>
