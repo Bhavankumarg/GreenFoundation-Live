@@ -16,49 +16,49 @@ const index = () => {
     <>
 
 
-<NextSeo
-      title="Livelihood Opportunities"
-      description="In farming communities, Green Foundation facilitates training in handicraft making with an aim to increase the livelihood opportunities of farmers Here s how"
-      canonical="https://greenfoundation.in/income-generation-programs"
-      openGraph={{
-        url: 'https://www.url.ie/a',
-        title: 'Livelihood Opportunities',
-        description: 'In farming communities, Green Foundation facilitates training in handicraft making with an aim to increase the livelihood opportunities of farmers Here s how',
-        images: [
-          {
-            url: '/our-work/income-generation/income_left_img.png',
-            width: 800,
-            height: 600,
-            alt: 'Awards and Recognitions',
-            type: 'image/jpeg',
-          },
-          {
-            url: '/our-work/income-generation/income_left_img.png',
-            width: 900,
-            height: 800,
-            alt: 'Awards and Recognitions',
-            type: 'image/jpeg',
-          },
-          { url: '/our-work/income-generation/income_left_img.png' },
-          { url: '/our-work/income-generation/income_left_img.png' },
-        ],
-        siteName: 'SiteName',
-      }}
-      twitter={{
-        handle: '@handle',
-        site: '@site',
-        cardType: 'summary_large_image',
-      }}
-    />
+      <NextSeo
+        title="Livelihood Opportunities"
+        description="In farming communities, Green Foundation facilitates training in handicraft making with an aim to increase the livelihood opportunities of farmers Here s how"
+        canonical="https://greenfoundation.in/income-generation-programs"
+        openGraph={{
+          url: 'https://www.url.ie/a',
+          title: 'Livelihood Opportunities',
+          description: 'In farming communities, Green Foundation facilitates training in handicraft making with an aim to increase the livelihood opportunities of farmers Here s how',
+          images: [
+            {
+              url: '/our-work/income-generation/income_left_img.png',
+              width: 800,
+              height: 600,
+              alt: 'Awards and Recognitions',
+              type: 'image/jpeg',
+            },
+            {
+              url: '/our-work/income-generation/income_left_img.png',
+              width: 900,
+              height: 800,
+              alt: 'Awards and Recognitions',
+              type: 'image/jpeg',
+            },
+            { url: '/our-work/income-generation/income_left_img.png' },
+            { url: '/our-work/income-generation/income_left_img.png' },
+          ],
+          siteName: 'SiteName',
+        }}
+        twitter={{
+          handle: '@handle',
+          site: '@site',
+          cardType: 'summary_large_image',
+        }}
+      />
 
-    <WebsiteSchema/>
-    <Header />
-    
-    <IncomeHeader />
-    <IncomeBanner />
-    <IncomeContent />
+      <WebsiteSchema />
+      <Header />
 
-    <Footer />
+      <IncomeHeader />
+      <IncomeBanner />
+      <IncomeContent />
+
+      <Footer />
     </>
   )
 }
