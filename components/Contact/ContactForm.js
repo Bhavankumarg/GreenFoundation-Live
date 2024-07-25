@@ -6,6 +6,7 @@ import axios from "axios";
 
 
 import '../custom.css'
+import Link from 'next/link';
 
 const ContactForm = () => {
 
@@ -143,7 +144,7 @@ const ContactForm = () => {
                             </Col>
                             {spinner && <div className="spinner-border text-light" role="status" />}
 
-                            <button type='submit' className='btn btn-primary register ' onClick={createPost}>Submit</button>
+                            <button type='submit' className='btn btn-primary register mt-3' onClick={createPost}>Submit</button>
                         </form>
                     }
 
@@ -167,7 +168,11 @@ const ContactForm = () => {
 
                     <h2 className='fs-4'>Our Email</h2>
 
-                    <h3 className='fw-bolder d-block w-100 p-2 rounded-3 fs-5' style={{ background: '#ecf1e4' }}>contact@greenfoundation.in</h3>
+                    <h3 className='fw-bolder d-block w-100 p-2 rounded-3 fs-5' style={{ background: '#ecf1e4' }}>
+                        <Link href="mailto:contact@greenfoundation.in" className='text-decoration-none text-black' style={{ color: '#126634 !important' }}>
+                            contact@greenfoundation.in
+                        </Link>
+                    </h3>
                 </Col>
             </Row>
         </Container >

@@ -47,7 +47,7 @@ const index = () => {
           cardType: 'summary_large_image',
         }}
       />
-      <WebsiteSchema/>
+      <WebsiteSchema />
       <Header />
       <ContactForm />
       {/* <AutoLayoutExample /> */}
