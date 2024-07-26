@@ -12,7 +12,7 @@ const PoliticalReasons = () => {
             <Container fluid className='bg-custom-grey'>
                 <Container className='py-5 text-center'>
                     <h3 className=' text-green text-center'>Political Reasons</h3>
-                    <h4 className='lime-green-bg p-5 rounded lh-lg text-center' >The research and development initiatives of the Green Revolution brought to the world, and particularly to India, a new, hybrid variety of seeds with the aim of increasing yields and reducing the food deficit of the country. They also introduced a chemical intensive form of agriculture highly dependant on external inputs that many farmers in India could ill afford. ‘Two decades of subsidizing agriculture with chemicals has impoverished the farmer and degraded the natural resources and diversity of food without reaching the goal of feeding the hungry.’</h4>
+                    <h4 className='lime-green-bg p-lg-5 p-3 rounded lh-lg text-center' >The research and development initiatives of the Green Revolution brought to the world, and particularly to India, a new, hybrid variety of seeds with the aim of increasing yields and reducing the food deficit of the country. They also introduced a chemical intensive form of agriculture highly dependant on external inputs that many farmers in India could ill afford. ‘Two decades of subsidizing agriculture with chemicals has impoverished the farmer and degraded the natural resources and diversity of food without reaching the goal of feeding the hungry.’</h4>
 
                     <p>— Hidden Harvests, GREEN Foundation</p>
                     <Image className='ps-md-5 ms-md-5' src='/aboutus/whatdriveus/political_reasones.png' alt='political_reasons' fluid />
