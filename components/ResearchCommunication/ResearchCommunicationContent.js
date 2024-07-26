@@ -59,7 +59,7 @@ const ResearchCommunicationContent = () => {
                     </Col>
 
                     <p>
-                        The Open University in collaboration with GREEN Foundation conducted a research on farming lives in South India, past and present. The project brings an original arts and humanities perspective to the crucial development challenges of food security, biodiversity, and climate adaptation faced by small and marginal farmers. Focusing on South India, it explores the potential of history, film, and sound, to document and support small farmer creativity in developing resilience to these livelihood challenges. The preliminary workshop for on Sustainable Farming Practices was organized in Bengaluru on 21st and 22nd of February, 2018.
+                        The Open University in collaboration with GREEN Foundation conducted a research on farming lives in South India, past and present. The project brings an original arts and humanities perspective to the crucial development challenges of food security, biodiversity, and climate adaptation faced by small and marginal farmers. Focusing on South India, it explores the potential of history, film, and sound, to document and support small farmer creativity in developing resilience to these livelihood challenges. The preliminary workshop on Sustainable Farming Practices was organised in Bengaluru on the 21st and 22nd of February, 2018.
                     </p>
 
                     <p>
@@ -71,7 +71,7 @@ const ResearchCommunicationContent = () => {
                     </h4>
 
                     <p>
-                        The researchers Dr. Sandip Hazareesingh, Open University, Tsveti Bendakova, Edinburgh University, co-ordinator, Sara Penrhyn Jones, media producer did their research in our project area to document creative and sustainable community farming practices. The farmers in this cluster were having indigenous knowledge to share with. We know our challenge will be intensive to make them talk. The open university professor selected around 20 to 25 farming community women to interview and documented their traditional knowledge on the farming practices.
+                        The researchers Dr. Sandip Hazareesingh, Open University, Tsveti Bendakova, Edinburgh University, co-ordinator, Sara Penrhyn Jones, media producer did their research in our project area to document creative and sustainable community farming practices. The farmers in this cluster had indigenous knowledge to share. We knew that making them talk would be an intensive challenge. The open university professor selected around 20 to 25 farming community women to interview and documented their traditional knowledge on the farming practices.
                     </p>
 
                     <h4 className='fw-bolder text-green'>
@@ -79,7 +79,7 @@ const ResearchCommunicationContent = () => {
                     </h4>
 
                     <p>
-                        Initially the younger farmers not involved much with the research and they thought that the older farmers may not be able to share their knowledge. But once the researchers started chatting with the older farmers , they were interested to share their knowledge as well with them.
+                        Initially the younger farmers were not much involved with the research and  thought that the older farmers would not be not be able to share their knowledge. However, once the researchers started chatting with the older farmers, they were interested in sharing their knowledge as well with them.
                     </p>
 
                     <Row className='d-flex flex-md-row flex-column gap-3 p-4 py-5 text-white rounded-4' style={{ background: '#7B9F44' }}>
@@ -88,7 +88,7 @@ const ResearchCommunicationContent = () => {
                                 Findings from the Research and Presentations
                             </h5>
                             <p className='text-white'>
-                                The researchers took four main topics for the discussion and for research. The videos and presentations prepared on those topics. The elderly women, men and younger generation farmers are also interviewed for collecting information on the topic. Around 25 farmers are interviewed. The elderly people shared their indigenous knowledge for documentation. The knowledge is divided into 4 main categories as follows which are relevant to the research and traditional knowledge were extracted from the farmers.
+                                The researchers selected four main topics for the discussion and for research. The videos and presentations were prepared on those topics. The elderly women, men and younger generation farmers were also interviewed for collecting information on the topic. Around 25 farmers were interviewed. The elderly people shared their indigenous knowledge for documentation. The knowledge was divided into 4 main categories relevant to the research and traditional knowledge was extracted from the farmers.
                             </p>
                         </Col>
 
@@ -117,9 +117,9 @@ const ResearchCommunicationContent = () => {
                     <h4 className='text-green fw-bolder'>
                         Our Grandmothers Used to Sing Whilst Weeding
                     </h4>
-                    <p>
+                    {/* <p>
                         Initially the younger farmers not involved much with the research and they thought that the older farmers may not be able to share their knowledge. But once the researchers started chatting with the older farmers , they were interested to share their knowledge as well with them.
-                    </p>
+                    </p> */}
 
                     <Row className='d-flex flex-md-row flex-column ' >
                         <Col md={6}>
@@ -149,7 +149,7 @@ const ResearchCommunicationContent = () => {
                         </Col>
                         <Col md={6} className='d-flex flex-column justify-content-end text-start'>
                             <p>
-                                Mrs. Hombalamma is widely known in her community as Beeja Matha, meaning seed mother, was interviewed for the broad knowledge she had to share about seeds. She’s considered a repository of indegenous knowledge of conserving and preserving seeds. For the past 22 years she has been conserving Broad Beans, Bottle Gourd, Tur Dal, Foxtail Millet, Pumpkin Seeds and other seeds for sowing every season, and sharing these seeds with other farmers.
+                                Mrs. Hombalamma is widely known in her community as Beeja Matha, meaning seed mother, was interviewed for the broad knowledge she had to share about seeds. She’s considered a repository of indigenous knowledge of conserving and preserving seeds. For the past 22 years she has been conserving Broad Beans, Bottle Gourd, Tur Dal, Foxtail Millet, Pumpkin Seeds and other seeds for sowing every season, and sharing these seeds with other farmers.
                             </p>
                         </Col>
                     </Row>

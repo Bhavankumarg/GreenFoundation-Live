@@ -45,7 +45,10 @@ const AgroContent = () => {
 
                         <Col>
                             <Image src='/our-work/agrobio/preserve_the_ecology_icon_2.svg' alt='' />
-                            <p className='py-2'>We facilitate farmers to adopt various soil and water conservation techniques that preserve the delicate ecology of their lands. We sensitize them on the climate change issues that have a direct impact on agriculture and train them on organic farming practices that replace harmful ones. Farmers are encouraged to use indigenous seed varieties that are well adapted to local climatic conditions, more resilient and less in need of chemical inputs.</p>
+                            <p className='py-2'>
+                                We facilitate farmers for the adoption of various soil and water conservation techniques that preserve the delicate ecology of their lands. We sensitise them to the climate change issues that have a direct impact on agriculture and train them on organic farming practices that replace harmful ones. Farmers are encouraged to use indigenous seed varieties that are well adapted to local climatic conditions, more resilient, and less in need of chemical inputs.
+
+                            </p>
                         </Col>
                     </Row>
 
@@ -87,7 +90,8 @@ const AgroContent = () => {
                             <div className=''>
                                 <Col className='community-seed-bank' >
                                     <Image src='/our-work/agrobio/slider_icon_1.svg' alt='' />
-                                    <p className='community-para text-white'>There are currently three CSBs in Kanakapura Taluk which combinedly has 142 varieties of Ragi and minor millet, 78 varieties of Paddy, 19 varieties of vegetables, 7 varieties of pulses and 9 varieties of oilseeds.
+                                    <p className='community-para text-white'>
+                                        There are currently three CSBs in Kanakapura Taluk which combinedly have 142 varieties of ragi and minor millet, 78 varieties of paddy, 19 varieties of vegetables, 7 varieties of pulses, and 9 varieties of oilseeds.
                                     </p>
                                 </Col>
                             </div>
@@ -108,7 +112,8 @@ const AgroContent = () => {
                             <div className=''>
                                 <Col className='community-seed-bank'>
                                     <Image src='/our-work/agrobio/slider_icon_1.svg' alt='' />
-                                    <p className='community-para text-white'>GREEN started its CSB in Pudukkottai at Tamil Nadu and Kalaburigi in Karnataka. Both the places Women farmers saving their indigenous varieties of Millets, Paddy, oil seeds, vegetable seeds, and pulses.
+                                    <p className='community-para text-white'>
+                                        GREEN started its CSBs in Pudukkottai, Tamil Nadu, and Kalaburagi in Karnataka. At both these places, women farmers save their indigenous varieties of millet, paddy, oil seeds, vegetable seeds, and pulses.
                                     </p>
                                 </Col>
                             </div>

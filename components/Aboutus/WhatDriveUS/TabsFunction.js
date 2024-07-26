@@ -21,15 +21,15 @@ const TabsFunction = () => {
                         <TabPanel className="p-2">
                             <h4 className='text-green'><b>SEED</b></h4>
                             <p>One of the first steps to preserving India’s ecology is the conservation of its agrobiodiversity. This begins, first and foremost with the conservation of indigenous variety seeds. By conserving the biodiversity of a region and encouraging the use of indigenous seed varieties that require low inputs, we aim to reduce the strain being felt on the region’s natural resources.</p>
-                            <p>‘The loss of these indigenous varieties would mean…the possible loss of a means to sustainable agriculture and its role in the conservation of the ecosystem as a whole’**.</p>
-                            <p>This importance of agrobiodiversity and its role in food security was well demonstrated in the early days of GREEN’s work. When drought hit some of the farmers in our operation area, they were surprised to note that the indigenous crop varieties we had encouraged them to grow were resilient and drought resistant. The exotic varieties on the other hand, introduced as high-yielding crops with the promise of a larger incomes, had been destroyed.</p>
-                            <p>Over the years, GREEN has worked extensively to conserve the rich agrobiodiversity of the country, spurred on by the steadfast belief that it is this biodiversity which holds the key to the future food security and ecological well being of India. We have always sought to recognize the role of farmers as scientists whose experience can provide important clues to ecological conservation. Using participatory techniques (such as Participatory Crop Improvement) we have worked with them side by side experimenting, testing and implementing successful conservation practices.</p>
+                            <p>‘The loss of these indigenous varieties would mean the possible loss of a means to sustainable agriculture and its role in the conservation of the ecosystem as a whole’.</p>
+                            <p>This importance of agrobiodiversity and its role in food security was well demonstrated in the early days of GREEN’s work. When drought hit some of the farmers in our operation area, they were surprised to note that the indigenous crop varieties we had encouraged them to grow were resilient and drought resistant. The exotic varieties on the other hand, introduced as high-yielding crops with the promise of larger incomes, had been destroyed.</p>
+                            <p>Over the years, GREEN has worked extensively to conserve the rich agrobiodiversity of the country, spurred on by the steadfast belief that it is this biodiversity which holds the key to the future food security and ecological well-being of India. We have always sought to recognize the role of farmers as scientists whose experience can provide important clues to ecological conservation. Using participatory techniques (such as Participatory Crop Improvement) we have worked with them side by side experimenting, testing and implementing successful conservation practices.</p>
                             <Row className='d-flex flex-lg-row flex-column'>
                                 <Col>
                                     <Image src='/aboutus/whatdriveus/seed_img.png' alt='seed' width="100%" />
                                 </Col>
                                 <Col className='d-flex flex-column justify-content-end'>
-                                    <p>For its efforts in this area, GREEN received the prestigious Equator Initiative Prize by UNDP in 2004.</p>
+                                    <p>For its efforts in this area, GREEN received the prestigious Equator Initiative Prize from UNDP in 2004.</p>
                                 </Col>
                             </Row>
                         </TabPanel>

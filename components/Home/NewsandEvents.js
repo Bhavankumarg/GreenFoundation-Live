@@ -62,7 +62,7 @@ const NewsandEvents = () => {
                 </Row>
                 <Col className='text-start mt-3'>
                     <Link href="/news-and-events/" className='text-decoration-none'>
-                        <h6 className='text-green fw-bolder d-inline p-2 rounded-2'>
+                        <h6 className='bg-green text-white d-inline p-2 rounded-2'>
                             View All
                         </h6>
                     </Link>

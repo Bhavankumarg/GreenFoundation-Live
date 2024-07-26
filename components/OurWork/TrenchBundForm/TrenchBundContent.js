@@ -9,11 +9,11 @@ const TrenchBundContent = () => {
             <Container className='text-md-center text-start p-0 py-5'>
 
                 <p>A bund is like an embankment, often built around the periphery of farmland to prevent water run-off. Bunds and trenches help reduce soil erosion and retain water during scanty rainfall. They also improve ground water levels by increasing filtration.</p>
-                <p>GREEN guides farmers to build bunds and trenches around their farms as part of its soil and water conservation efforts. Bunds are trenches are built immediately after the first rain as it is easy to dig the soil at that period. Farmers are advised grow grass on their bunds in order to reduce the intensity of rain falling directly on them.
+                <p>GREEN guides farmers to build bunds and trenches around their farms as part of its soil and water conservation efforts. Bunds are trenches that are built immediately after the first rain as it is easy to dig the soil during that period. Farmers are advised to grow grass on their bunds in order to reduce the intensity of rain falling directly on them.
                 </p>
 
                 <Row className="p-md-3 p-2 rounded-4 d-flex flex-column flex-wrap align-items-md-center m-md-0 m-1" style={{ background: '#7B9F4427' }}>
-                    <p>Soil and agricultural waste collected in trenches is used to enrich the soil in the area by mixing it back into the land. Rainwater collected in trenches is directed to kitchen gardens or used to grow trees in the trenches themselves. Many farmers, in fact, grow fruit trees in the bunds on their farms. Read more on our agroforestry efforts. Fruit trees not only supplement the family’s nutrition, but also generate additional income for the households when the fruit is sold.
+                    <p>Soil and agricultural waste collected in trenches is used to enrich the soil in the area by mixing it back into the land. Rainwater collected in trenches is directed to kitchen gardens or used to grow trees in the trenches themselves. Many farmers, in fact, grow fruit trees in the bunds on their farms. Fruit trees not only supplement the family’s nutrition, but also generate additional income for the households when the fruit is sold.
                     </p>
 
                     {/* Desktop Image */}

@@ -21,7 +21,7 @@ const SeedMappingContent = () => {
                         </Col>
                     </Row>
                     <p >
-                        The close interaction with communities also allows us to raise awareness of other types of traditional, sustainable practices while encouraging farmers to adopt these practices. Find out how PRA is also used to revive traditional practices. Through techniques such PRA, GREEN has been able to rediscover nearly 420 indigenous seed varieties since it first began its work in Thalli in 1997.
+                        The close interaction with communities also allows us to raise awareness of other types of traditional, sustainable practices while encouraging farmers to adopt these practices. Through techniques such PRA, GREEN has been able to rediscover nearly 420 indigenous seed varieties since it first began its work in Thalli in 1997.
                     </p>
                 </Container>
             </Container>

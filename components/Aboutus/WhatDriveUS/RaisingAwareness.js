@@ -14,7 +14,7 @@ const RaisingAwareness = () => {
 
                     <p>Fostering public awareness at a grassroots level has been essential in propelling the movement forward. GREEN initiates programs such as seed fares and yatras, which have proved a useful means of disseminating our core philosophy. Seminars and workshops on Government policy are held regularly held to sensitize farmers on issues directly concerning them.</p>
 
-                    <p>We have also sought to increase general public awareness through radio programs, articles and regular columns in leading native-language newspapers. We recognize and encourage efforts of individual farmers who steadfastly uphold sustainable agricultural practices. ‘Beeje Maate’ Award was instituted for those farmers who have made outstanding contributions to seed conservation. Read more about our farmers.</p>
+                    <p>We have also sought to increase general public awareness through radio programs, articles and regular columns in leading native-language newspapers. We recognize and encourage efforts of individual farmers who steadfastly uphold sustainable agricultural practices. ‘Beeje Maate’ Award was instituted for those farmers who have made outstanding contributions to seed conservation.</p>
 
                     <h5 className='lime-green-bg p-4 rounded lh-lg' >“We want to spread the message of organic agriculture far and wide. When people visit us, we always give them gifts of seeds so that they can carry the concept of organic farming into more and more areas.”</h5>
 

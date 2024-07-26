@@ -5,16 +5,17 @@ import { Col, Container, Row } from 'react-bootstrap'
 
 import '../ourwork.css'
 
-const   AgroforestryContent = () => {
+const AgroforestryContent = () => {
     return (
         <Container fluid>
             <Container className='p-0 py-5 text-md-center text-start '>
-                <p>GREEN initiates farmers to take up agroforestry in their landholdings by growing trees in bunds and trenches around their farms. Saplings are first produced in a nursery before being transplanted to the main field. Incorporating agroforestry in farms is an ages old tradition in India that has recently faded out of farming practices. GREEN aims to revive this practice in order that farmers may benefit from its many advantages. Read more on how we revive other farming practices.</p>
+                <p>GREEN initiates farmers to take up agroforestry in their landholdings by growing trees in bunds and trenches around their farms. Saplings are first produced in a nursery before being transplanted to the main field. Incorporating agroforestry in farms is an age-old tradition in India that has recently faded out of farming practices. GREEN aims to revive this practice so that farmers may benefit from its many advantages.
+                </p>
 
                 <Row className='agroforesty-content-bg shadow-sm d-flex justify-content-end align-content-center p-3'>
                     <Col md={5} className='bg-black bg-opacity-75 p-4 border border-1 border-white text-start'>
                         <Col className='border border-4 border-white mb-4' md={2} xs={2}></Col>
-                        <p className='text-white'>Through our efforts, nearly 10,000 saplings were raised by women farmers in the villages of Aralagadakalu and Veeraiahanadoddi. Read more on women as custodians of biodiversity. Around 2500 trees were also planted in the areas as part of the Organic Village Program of the Govt. of Karnataka.
+                        <p className='text-white'>Through our efforts, nearly 10,000 saplings were raised by women farmers in the villages of Aralagadakalu and Veeraiahanadoddi. Around 2500 trees were also planted in the areas as part of the Organic Village Program of the Govt. of Karnataka.
                         </p>
                     </Col>
                 </Row>

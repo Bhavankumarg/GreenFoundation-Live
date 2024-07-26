@@ -57,7 +57,7 @@ const SeedBanksContent = () => {
                         <Col className='d-flex seed-custom-bg-list'>
                             <Image src='/our-work/seed-banks/circle_white.svg' alt='' className='p-2' width={30} />
                             <p className='m-0 text-white'>
-                                To minimize the farmer dependency on the public and private seed supply system and strengthening farmer to farmer exchange system
+                                To minimise the farmer dependency on the public and private seed supply system and strengthen farmer to farmer exchange system.
                             </p>
                         </Col>
                         <Col className='d-flex seed-custom-bg-list'>

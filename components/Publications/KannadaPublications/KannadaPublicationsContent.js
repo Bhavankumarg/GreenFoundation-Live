@@ -22,11 +22,11 @@ const KannadaPublicationsContent = () => {
                             </p>
                         </Col>
                     </Col>
-                    <Link href="/susthira_krishi_paddhathigalu.pdf.html" className='text-decoration-none text-white'>
+                    {/* <Link href="/susthira_krishi_paddhathigalu.pdf.html" className='text-decoration-none text-white'>
                         <h6 className='bg-green d-inline-block p-2 rounded-2 kannada-publication-btn-loop-font'>
                             View PDF version
                         </h6>
-                    </Link>
+                    </Link> */}
                 </Col>
                 <Col className='bg-custom-grey p-3 rounded-4 d-flex flex-column'>
                     <Col className='d-flex flex-md-row flex-column'>
@@ -40,11 +40,11 @@ const KannadaPublicationsContent = () => {
                             </p>
                         </Col>
                     </Col>
-                    <Link href="" className='text-decoration-none text-white'>
+                    {/* <Link href="" className='text-decoration-none text-white'>
                         <h6 className='bg-green d-inline-block p-2 rounded-2 kannada-publication-btn-loop-font'>
                             View PDF version
                         </h6>
-                    </Link>
+                    </Link> */}
                 </Col>
 
             </Row>

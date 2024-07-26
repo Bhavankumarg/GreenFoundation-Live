@@ -9,7 +9,7 @@ const items = [
         title: 'Women Reclaim Our Seeds',
         imageUrl: '/publications/english-publication/women_reclaim_our_seeds.png',
         excerpt: 'Are voices of concern and interest backed up by commitment and action? Rarely. However, Vanaja Ramprasad’s work with and for GREEN Foundation and on issues related to sustainable agriculture is one such rare case. Over the past 25 years she has diligently and persistently worked to promote sustainable agricultural practices…',
-        pdfurl: '/publications/english-publication/pdf/living_on_the_edge.pdf'
+        pdfurl: '/publications/english-publication/pdf/women-reclaim-our-seeds.pdf'
     },
     {
         title: 'Susthira Krishi Paddhathigalu',
@@ -46,7 +46,7 @@ const items = [
         title: 'Community Interventions as Good Practice in Biodiversity Conservation',
         imageUrl: '/publications/english-publication/community_initiatives_as_good_practice.jpg',
         excerpt: 'GREEN Foundation aims to work on eco-development initiatives with indigenous communities in the Nilgiri Biosphere Reserve in the Western Ghats. It has built in strategies and practices that conserve bio-diversity and address the livelihoods of the forest dependent communities.',
-        pdfurl: '/publications/english-publication/pdf/equator_initiative_green_foundation_India.pdf'
+        pdfurl: ''
     },
     {
         title: 'Sustainable Agricultural Practices',
@@ -59,7 +59,7 @@ const items = [
         title: 'Swasth Anubhav',
         imageUrl: '/publications/english-publication/swasth_anubhav.jpg',
         excerpt: 'Swasth Anubhav is a collection of simple facts drawn from the Ayurvedic Science which was also people’s science in the past. Nature’s abundance was recognized and well integrated into the health needs and experiences of people. With modernization, we have distanced ourselves from these concepts.',
-        pdfurl: '/publications/english-publication/pdf/equator_initiative_green_foundation_India.pdf'
+        pdfurl: ''
     },
     {
         title: 'Banking on Seeds',

@@ -41,7 +41,7 @@ const CertificationContent = () => {
                 <Col className='p-3 rounded-4 text-white' style={{ background: '#7B9F44' }}>
                     <h4 className=''>Formation of a Local Group</h4>
                     <p className='text-white'>
-                        The certification procedure outlined by the OFAI is only possible if farmers organize themselves into Local Groups (LGs). Therefore, each farmer must join a Local Group within his community and become an OFAI member. He must fill in the relevant OFAI forms and read an OFAI Basic Standards document that outlines organic farming standards that must followed in order to be certified. The farmer must also sign a pledge to follow these standards within his farm.
+                        The certification procedure outlined by the OFAI is only possible if farmers organise themselves into Local Groups (LGs). Therefore, each farmer must join a Local Group within his community and become an OFAI member. He must fill in the relevant OFAI forms and read an OFAI Basic Standards document that outlines organic farming standards that must followed in order to be certified. The farmer must also sign a pledge to follow these standards within his farm.
                     </p>
                 </Col>
                 <Col md={6} className='p-md-0 p-3 text-center'>
@@ -59,7 +59,7 @@ const CertificationContent = () => {
                     </p>
 
                     <p className='text-white'>
-                        Local Groups are recognized by a Regional Council (OFAI NSC). Those groups that do not comply with set standards are derecognized by the council. The PGS India Council maintains all records of LGs, providing them with identification. It also maintains a website database of PGS Organic India.
+                        Local Groups are recognised by a Regional Council (OFAI NSC). Those groups that do not comply with set standards are derecognised by the council. The PGS India Council maintains all records of LGs, providing them with identification. It also maintains a website database of PGS Organic India.
                     </p>
                 </Col>
 

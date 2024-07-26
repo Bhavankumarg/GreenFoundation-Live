@@ -17,7 +17,8 @@ const CoreTeam = () => {
                         <h2>Vanaja Ramprasad</h2>
                         <h3 className='fs-5'><b>Founder</b></h3>
                     </Col>
-                    <p className='p-0 py-2 mb-0'>Vanaja Ramprasad, PhD: the Founding Trustee of GREEN Foundation, she has tirelessly contributed to the growth of the organization without expecting monetary benefits except a small honorarium. Her commitment to the cause has been the major force behind what the organization has achieved in the last fifteen years in the face of many difficulties. In recognition of the hard and tireless work Dr.Vanaja Ramprasad was invited to receive the Equator Initiative award in 2004, was given the “Woman in vocation award” by the Rotary in 1997 and “for the sake of Honour” in 2004 by the Rotary. She has been selected as one of the world board members of the “International Federation of Organic Agriculture Movement” and was invited by the IAASTD to be a lead author in the world wide event to prepare the document on Science Technology and Development impacting agriculture.
+                    <p className='p-0 py-2 mb-0'>Vanaja Ramprasad, PhD, the Founding Trustee of GREEN Foundation, tirelessly contributed to the growth of the organisation without expecting monetary benefits except for a small honourarium. Her commitment to the cause was the major force behind what the organisation achieved over the previous fifteen years despite many difficulties. In recognition of her hard and tireless work, Dr. Vanaja Ramprasad was invited to receive the Equator Initiative Award in 2004, was honoured with the “Woman in Vocation Award” by Rotary in 1997, and received the “For the Sake of Honour” award from Rotary in 2004. She was selected as one of the world board members of the International Federation of Organic Agriculture Movements and was invited by the IAASTD to serve as a lead author for a worldwide event to prepare a document on Science, Technology, and Development impacting agriculture. Her enduring legacy is celebrated through the ongoing impact of her work, which has significantly advanced sustainable agricultural practices, empowered rural communities, and promoted environmental conservation, continuing to inspire future generations committed to social change and sustainability.
+
                     </p>
                 </Row>
                 <Row className='my-4 our-team-box' style={{ background: '#f2f2f2' }}>
@@ -111,7 +112,7 @@ const CoreTeam = () => {
                         <h2>Narasimhappa</h2>
                         <h5><b>Finance and Accounts Executive</b></h5>
                     </Col>
-                    <p className='p-0 py-2 mb-0'>Narasimhappa B is a B Com graduate from Bangalore University and pursuing MBA in Finance specialization in Pondicherry University.Having 4 years work experience in accounts and finance department and having passion of learning new things every day. Growing everyday through his skills like commitment towards works and adaptive nature in every situation. He is presently based on Bangalore.
+                    <p className='p-0 py-2 mb-0'>Narasimhappa B is a B Com graduate from Bangalore University and pursuing MBA in Finance specialization in Pondicherry University.Having 4 years work experience in accounts and finance department and having passion of learning new things every day. Growing everyday through his skills like commitment towards works and adaptive nature in every situation. He is presently based in Bangalore.
                     </p>
                 </Row >
 

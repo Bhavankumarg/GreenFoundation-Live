@@ -19,7 +19,8 @@ const SiltAppContent = () => {
 
                     <Col md={6} >
                         <Image src='/our-work/silt-application/silt_app_icon_2.svg' alt='' />
-                        <p className='p-md-2'>However, the shift away from traditional practices towards chemical fertilizers has meant that many farmers now no longer use silt as a type of organic manure. The resulting increase in siltation in tanks and lakes has reduced their water holding capacities. GREEN has aimed to revive the traditional practice of silt application by guiding farmers through the process. This counters the effects of siltation while improving soil fertility. Read more on how we revive other indigenous agricultural practices. Silt collected from tanks and lakes is then spread evenly on the field before sowing.
+                        <p className='p-md-2'>
+                            However, the shift away from traditional practices towards chemical fertilisers has meant that many farmers now no longer use silt as a type of organic manure. The resulting increase in siltation in tanks and lakes has reduced their water holding capacities. GREEN has aimed to revive the traditional practice of silt application by guiding farmers through the process. This counters the effects of siltation while improving soil fertility. Read more on how we revive other indigenous agricultural practices. Silt collected from tanks and lakes is then spread evenly on the field before sowing.
                         </p>
                     </Col>
 
@@ -32,7 +33,7 @@ const SiltAppContent = () => {
 
                     <Col md={6} >
                         <Image src='/our-work/silt-application/silt_app_icon_4.svg' alt='' />
-                        <p className='p-md-2'>Advantages of silt application include increased soil fertility and, therefore, crop yields, increased moisture content of soil, improvement in water table due to increased filtration, among many others. Upon being initiated by GREEN to take up silt application, many farmers reported a significant increase in crop yields. In particular, yields were doubled in farmers who were growing ragi in their fields. These encouraging results have persuaded many more community members to take up silt application in their own farms. Click here to view results of silt application on ragi yields.
+                        <p className='p-md-2'>Advantages of silt application include increased soil fertility and, therefore, crop yields, increased moisture content of soil, improvement in water table due to increased filtration, among many others. Upon being initiated by GREEN to take up silt application, many farmers reported a significant increase in crop yields. In particular, yields were doubled for farmers who were growing ragi in their fields. These encouraging results have persuaded many more community members to take up silt application in their own farms.
                         </p>
                     </Col>
                 </Row>

@@ -50,9 +50,9 @@ const OurStoriesSlug = () => {
                                 </div>
                             ))}
                         </Col>
-                        <Col>
+                        {/* <Col>
                             <h2>Related stories</h2>
-                        </Col>
+                        </Col> */}
                     </Row>
                 </Container>
             </Container>

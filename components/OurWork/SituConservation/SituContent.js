@@ -11,7 +11,8 @@ const SituContent = () => {
         <>
             <Container fluid className='situ-custom-bg py-5'>
                 <Container className=' text-center'>
-                    <p>Conservation of indigenous seed varieties has been at the core of the Foundation’s work since it first began in 1994. In the early years, GREEN staff travelled scores of miles in their search for rare seed varieties. And each time a new variety was found, it was brought eagerly back to the research farm in Thalli for multiplication and further experimentation. These early trials formed the firm basis of the Foundation’s conservation efforts. Today, scores of indigenous crop and vegetable varieties have been re-introduced in farming areas where they had all but disappeared. Increasing numbers of farmers are now reverting to the cultivation of these varieties and the low-input sustainable agriculture they require.
+                    <p>
+                        Conservation of indigenous seed varieties has been at the core of the foundation’s work since its conception in 1994. In the early years, GREEN staff travelled scores of miles in their search for rare seed varieties. Each time a new variety was found, it was brought eagerly back to the research farm in Thalli for multiplication and further experimentation. These early trials formed the firm basis of the foundation’s conservation efforts. Today, scores of indigenous crop and vegetable varieties have been reintroduced in farming areas where they had all but disappeared. Increasing numbers of farmers are now reverting to the cultivation of these varieties and the low-input sustainable agriculture they require.
                     </p>
 
                     <Image src='/our-work/insit/In-situ-and-Ex-situ-conservation.png' alt='' width="70%" />

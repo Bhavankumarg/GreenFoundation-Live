@@ -73,7 +73,7 @@ const Form = () => {
     return (
         <>
             <Container className='py-5 text-center w-100'>
-                <h5>GREEN Foundation welcomes volunteers, who are committed to contribute substantially in terms of concepts and field work.</h5>
+                <h5>GREEN Foundation welcomes volunteers, who are committed to contributing substantially in terms of concepts and field work.</h5>
                 {success &&
                     <form
                         onSubmit={handleSubmit}>

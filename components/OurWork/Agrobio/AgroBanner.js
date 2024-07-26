@@ -11,7 +11,8 @@ const AgroBanner = () => {
                 <Row className='p-2 position-absolute z-0' style={{ background: '#E8E8E8', display: 'inline-block' }}>
                     <Link href="/" className='text-decoration-none text-black'>Home </Link>
                     /
-                    <Link href="/agrobiodiversity-conservation" className='text-decoration-none text-black'>Our work</Link>
+                    <Link href="/agrobiodiversity-conservation" className='text-decoration-none text-black'>
+                        Agrobiodiversity Conservation</Link>
 
                 </Row>
                 <Container className='d-flex justify-content-center align-items-center' style={{ height: '400px' }}>

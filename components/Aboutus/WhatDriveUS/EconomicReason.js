@@ -18,7 +18,7 @@ const EconomicReason = () => {
                             <Image src='/aboutus/whatdriveus/ecomomic_reason.png' alt='ecological' fluid></Image>
                         </Col>
                         <Col className='p-md-4 pb-md-5 p-2 text-white'>
-                            <p className='text-white'>One of GREEN Foundation’s driving forces is to empower farmers to achieve economic security. We help farming households do this through various initiatives such as kitchen gardens, alternate income generating programs, community seed banks etc. We provide farmers training in sustainable practices which reduce their dependency on expensive inputs.</p>
+                            <p className='text-white'>One of GREEN Foundation’s driving forces is to empower farmers to achieve economic security. We help farming households do this through various initiatives such as kitchen gardens, alternate income generating programs, community seed banks etc. We provide farmers with training in sustainable practices which reduces their dependency on expensive inputs.</p>
 
                             <p className='text-white'>We help organic farmers gain certification through the PGS system so that their produce is more marketable. To achieve this aim, we have also initiated the formation of Janadhanya, a society which aims to strengthen farmers’ economic security through the collective efforts of the community.</p>
                         </Col>

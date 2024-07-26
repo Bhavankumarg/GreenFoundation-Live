@@ -151,8 +151,8 @@ const IncomeContent = () => {
 
                         <Col md={6} className='p-0'>
                             <Col className='process-bg-7 p-0 d-flex flex-row align-items-center justify-content-center m-2' >
-                                <h5 className='hide-text-7 p-4 text-white fs-1'>Sri Jayalakshmi Chandrike Rent Out Group</h5>
-                                <Col className='process-bg-7-hover p-0'>
+                                <h5 className=' p-4 text-white fs-1'>Sri Jayalakshmi Chandrike Rent Out Group</h5>
+                                {/* <Col className='process-bg-7-hover p-0'>
                                     <Col className='p-0 p-4'>
                                         <div className='divider-top'></div>
                                         <Col className='p-3'>
@@ -164,7 +164,7 @@ const IncomeContent = () => {
                                             <span className='divider-bottom'></span>
                                         </div>
                                     </Col>
-                                </Col>
+                                </Col> */}
                             </Col>
                         </Col>
 
@@ -179,9 +179,12 @@ const IncomeContent = () => {
 
                     <Image src='/our-work/income-generation/Support_to_existing_producer_groups.png' alt='' width="70%" />
 
-                    <p>Training programs have been conducted for papad making and oil producing group on selecting good quality raw materials, production systems, total budget of the process, community contribution, roles and responsibilities of the members and marketing opportunities. Also training given for the value addition, quality assurance on each stage and health and hygiene.</p>
+                    <p>
+                        Training programs have been conducted for papad-making and oil-producing groups on selecting good quality raw materials, production systems, the total budget of the process, community contribution, roles and responsibilities of the members, and marketing opportunities. Also, training was given for value addition, quality assurance at each stage, and health and hygiene.
+                    </p>
 
-                    <p>Supplied gloves, masks and caps and trained the groups to use it as well. Training given to the groups for book-keeping, financial management and follow up mitigation.Training given on supply chain management and quality is assured.
+                    <p>
+                        Supplied gloves, masks, and caps and trained the groups to use them. Training was given to the groups for book-keeping, financial management, and follow-up mitigation. Training was given on supply chain management and quality was assured.
                     </p>
                 </Container>
             </Container>

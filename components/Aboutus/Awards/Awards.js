@@ -30,7 +30,7 @@ const Awards = () => {
                         <Col md={3}>
                             <Image src='/aboutus/awards-recog/green_globe_award.png' alt='' width="100%" />
                             <h2 className='mt-3 fs-4'><b>GREEN GLOBE Foundation Awards, 2011</b></h2>
-                            <p>GREEN GLOBE Foundation Awards, 2011 for extraordinary work by an Non Governmental…</p>
+                            <p>GREEN GLOBE Foundation Awards, 2011 for extraordinary work by an Non Governmental Organisation.</p>
                             {/* <Button href='' target='_blank' className='award-know-btn border-0'>
                                 <h5 className='m-0 px-3'>Know More</h5>
                             </Button> */}

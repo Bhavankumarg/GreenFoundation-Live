@@ -73,7 +73,7 @@ const ContactForm = () => {
             <Row className='d-flex flex-md-row flex-column'>
                 <Col className='' md={7}>
                     <p className='text-green'>
-                        GREEN Foundation welcomes volunteers who are committed to contribute substantially in terms of concepts and field work
+                        GREEN Foundation welcomes volunteers who are committed to contributing substantially in terms of concepts and field work.
                     </p>
 
                     {success &&
