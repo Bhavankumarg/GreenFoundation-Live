@@ -58,11 +58,12 @@ const Header = () => {
                                 <Link href="/our-stories" className='header-links'>Stories from the Field</Link>
                                 <Link href="/greens-work-related-videos" className='header-links'>Videos</Link>
                             </NavDropdown>
+
                             <Link href='/contact-us'
-                                className=' text-decoration-none'
+                                className=' text-decoration-none  d-flex flex-column justify-content-center align-items-center'
                             >
                                 <p
-                                    className='text-white p-1 px-3 rounded-3'
+                                    className='text-white p-1 px-3 rounded-3 h-auto'
                                     style={contactFont}
                                 >
                                     Contact Us

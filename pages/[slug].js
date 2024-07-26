@@ -22,9 +22,9 @@ export default function Page() {
 
 
     const FetchPost = async () => {
-        const URL_Fetchpost = `${config.apiDomain}posts?&slug=${slug}&_embed=1`;
-        // const url = `https://beta.greenfoundation.in/wp-json/wp/v2/posts?&slug=${slug}&_embed`;
-        let result = await fetch(URL_Fetchpost);
+        // const URL_Fetchpost = `${config.apiDomain}posts?&slug=${slug}&_embed=1`;
+        const url = `https://beta.greenfoundation.in/wp-json/wp/v2/posts?&slug=${slug}&_embed`;
+        let result = await fetch(url);
         result = await result.json();
         setData(result);
         // console.log(result);
@@ -105,7 +105,7 @@ export default function Page() {
                     <Row className='p-0 '>
                         <Col md={8} className='d-flex flex-column gap-2'>
 
-                            {data1.map((items) => (
+                            {data.map((items) => (
                                 <div key={items.id}>
                                     <Image src={items._embedded['wp:featuredmedia'][0].source_url} alt={items.title.rendered} fluid />
                                     <div className='py-2'>
@@ -126,11 +126,10 @@ export default function Page() {
                         </Col>
 
 
-                        <Col className='py-md-0 py-5'>
+                        {/* <Col className='py-md-0 py-5'>
                             <h2>Latest</h2>
 
                             {data.map((story) => (
-
                                 <Col key={story.id} className='align-self-lg-stretch p-4' >
                                     <Image src={story._embedded['wp:featuredmedia'][0].source_url} alt={story.title.rendered} fluid />
                                     <div className='py-2'>
@@ -154,7 +153,7 @@ export default function Page() {
                                     </Link>
                                 </Col>
                             ))}
-                        </Col>
+                        </Col> */}
                     </Row>
                 </Container>
             </Container>
