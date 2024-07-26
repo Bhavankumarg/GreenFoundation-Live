@@ -126,8 +126,8 @@ export default function Page() {
                         </Col>
 
 
-                        {/* <Col className='py-md-0 py-5'>
-                            <h2>Latest</h2>
+                        <Col className='py-md-0 py-5'>
+                            {/* <h2>Latest</h2>
 
                             {data.map((story) => (
                                 <Col key={story.id} className='align-self-lg-stretch p-4' >
@@ -152,8 +152,8 @@ export default function Page() {
                                         Read More
                                     </Link>
                                 </Col>
-                            ))}
-                        </Col> */}
+                            ))} */}
+                        </Col>
                     </Row>
                 </Container>
             </Container>
