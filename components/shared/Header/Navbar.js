@@ -66,7 +66,7 @@ const Header = () => {
                                     className='text-white p-1 px-3 rounded-3 h-auto'
                                     style={contactFont}
                                 >
-                                    Contact Us
+                                    Contact
                                 </p>
                             </Link>
                         </Nav>
