@@ -22,3 +22,4 @@ jobs:
 
           script: |
             cd /home/react-staging/GreenFoundation-Live
+            git config --global --add safe.directory /home/react-staging/GreenFoundation-Live/
