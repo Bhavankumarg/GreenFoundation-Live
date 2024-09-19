@@ -12,22 +12,41 @@ import "./post.css";
 
 import Header from "../../components/shared/Header";
 import Footer from "../../components/shared/Footer";
+import { NextSeo } from "next-seo";
+import { usePathname } from "next/navigation";
+import PostNotFound from "../post-not-found";
 
 const OurStoriesSlug = () => {
   const router = useRouter();
   const { slug } = router.query;
+
+  const pathname = usePathname();
 
   const post = storydata.find(
     (post) => slugify(post.title, { lower: true }) === slug
   );
 
   if (!post) {
-    return <p>Post not found</p>;
+    return <>
+    <PostNotFound/>
+    </>;
   }
   return (
     <>
+      {/* {
+        post.content.map((item, index)=>(
+            
+        ))
+    } */}
+
+      <head>
+        <title>{post.meta_title}</title>
+        <meta name="description" content={post.meta_description} />
+        <link rel="canonical" href={`https://greenfoundation.in${pathname}`} />
+      </head>
+
       <Header />
-      <GoogleAnalyticsFile />   
+      <GoogleAnalyticsFile />
       <Container fluid className="w-100">
         <Container className="py-5 p-0">
           <Link
