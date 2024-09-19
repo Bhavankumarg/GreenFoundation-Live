@@ -2,7 +2,7 @@ import React from 'react'
 
 import Header from '../../../components/shared/Header'
 import Footer from '../../../components/shared/Footer'
-
+import GoogleAnalyticsFile from '@/components/GoogleAnalyticsFile'
 import '../../Style'
 import AwardsHeader from './AwardsHeader'
 import AwardsBanner from './AwardsBanner'
@@ -27,6 +27,7 @@ const index = () => {
       <SeoTags pageTitle={pageTitle} pageDescription={pageDescription} MetaImage={MetaImage} url={url} />
 
       <Header />
+      <GoogleAnalyticsFile/>
       <AwardsHeader />
       <AwardsBanner />
       <Awards />

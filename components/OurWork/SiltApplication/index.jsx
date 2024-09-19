@@ -2,7 +2,7 @@ import React from 'react'
 
 import Header from '../../shared/Header'
 import Footer from '../../shared/Footer'
-
+import GoogleAnalyticsFile from '@/components/GoogleAnalyticsFile'
 import '../../Style'
 import SiltAppHeader from './SiltAppHeader'
 import SiltAppBanner from './SiltAppBanner'
@@ -51,7 +51,7 @@ const index = () => {
 
     <WebsiteSchema/>
     <Header />
-
+    <GoogleAnalyticsFile/>
     <SiltAppHeader />
     <SiltAppBanner />
     <SiltAppContent />

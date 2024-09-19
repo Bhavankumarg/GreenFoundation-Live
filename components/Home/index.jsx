@@ -10,7 +10,7 @@ import Header from '../shared/Header/Navbar'
 import Footer from '../shared/Footer/Footer'
 import WebsiteSchema from '../shared/WebsiteSchema'
 import { NextSeo } from 'next-seo'
-
+import GoogleAnalyticsFile from '../GoogleAnalyticsFile'
 
 import '../Style'
 import SeoTags from '../SeoComponents/Seo'
@@ -38,6 +38,7 @@ const index = () => {
 
       <WebsiteSchema />
       <Header />
+      <GoogleAnalyticsFile/>
       <HeroBanner />
       <OurWork />
       <NewsandEvents />

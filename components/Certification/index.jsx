@@ -2,7 +2,7 @@ import React from 'react'
 
 import Header from '../shared/Header'
 import Footer from '../shared/Footer'
-
+import GoogleAnalyticsFile from '../GoogleAnalyticsFile'
 import '../Style'
 import CertificationBanner from './CertificationBanner'
 import CertificationContent from './CertificationContent'
@@ -48,6 +48,7 @@ const index = () => {
       />
       <WebsiteSchema/>
     <Header />
+    <GoogleAnalyticsFile/>
     <CertificationBanner />
     <CertificationContent />
     <Footer />

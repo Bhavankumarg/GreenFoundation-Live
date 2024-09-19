@@ -5,7 +5,7 @@ import Footer from '../../shared/Footer'
 // import NewsEventsLoopTemplate from '@/components/LoopTemplate/NewsEventsLoopTemplate'
 import { NextSeo } from 'next-seo'
 import NewsAndEvnetsPost from './NewsAndEvnetsPost'
-
+import GoogleAnalyticsFile from '@/components/GoogleAnalyticsFile'
 import SeoTags from '@/components/SeoComponents/Seo';
 import { usePathname } from 'next/navigation';
 
@@ -24,6 +24,7 @@ const index = () => {
       <SeoTags pageTitle={pageTitle} pageDescription={pageDescription} MetaImage={MetaImage} url={url} />
 
       <Header />
+      <GoogleAnalyticsFile/>
       <NewsAndEvnetsPost />
       {/* <NewsEventsLoopTemplate /> */}
       <Footer />

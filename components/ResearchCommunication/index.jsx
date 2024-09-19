@@ -1,5 +1,5 @@
 import React from 'react'
-
+import GoogleAnalyticsFile from '../GoogleAnalyticsFile'
 import Header from '../shared/Header'
 import Footer from '../shared/Footer'
 import ResearchCommunicationBanner from './ResearchCommunicationBanner'
@@ -48,6 +48,7 @@ const index = () => {
       />
     <WebsiteSchema/>
     <Header />
+    <GoogleAnalyticsFile/>
     <ResearchCommunicationBanner />
     <ResearchCommunicationContent />
     <Footer />

@@ -5,7 +5,7 @@ import { Col, Container, Row } from 'react-bootstrap';
 import "bootstrap/dist/css/bootstrap.min.css";
 import { NextSeo } from 'next-seo';
 import Head from 'next/head';
-
+import GoogleAnalyticsFile from '@/components/GoogleAnalyticsFile';
 const Post = ({ data, slug }) => {
   const post = data[0];
   const metaTitle = post?.acf.meta_title || post?.title?.rendered;
@@ -22,6 +22,7 @@ const Post = ({ data, slug }) => {
       </Head>
 
       <Header />
+      <GoogleAnalyticsFile/>
       <div className='w-full g-0'>
         <Container fluid className="g-0" style={{ backgroundImage: `url("/aboutus/awards-recog/awards_banner.png")`, height: "70vh", backgroundRepeat: "no-repeat", backgroundSize: "cover" }}>
           <Row className="g-0 flex-column flex-lg-row bg-opacity-50 p-2 bg-black h-100">

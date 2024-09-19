@@ -3,7 +3,7 @@ import OurTeamHeader from './OurTeamHeader'
 
 import Header from '../../../components/shared/Header'
 import Footer from '../../../components/shared/Footer'
-
+import GoogleAnalyticsFile from '@/components/GoogleAnalyticsFile'
 import '../../Style'
 import CoreTeam from './CoreTeam'
 import Banner from '../OurTeam/Banner'
@@ -27,6 +27,7 @@ const index = () => {
       <SeoTags pageTitle={pageTitle} pageDescription={pageDescription} MetaImage={MetaImage} url={url} />
 
       <Header />
+      <GoogleAnalyticsFile/>
       <OurTeamHeader />
       <Banner />
       <CoreTeam />

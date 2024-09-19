@@ -2,7 +2,7 @@ import React from 'react'
 
 import Header from '../../shared/Header'
 import Footer from '../../shared/Footer'
-
+import GoogleAnalyticsFile from '@/components/GoogleAnalyticsFile'
 import '../../Style'
 import OurStoriesLoopTemplate from '@/components/LoopTemplate/OurStoriesLoopTemplate'
 import { NextSeo } from 'next-seo'
@@ -25,6 +25,7 @@ const index = () => {
       <SeoTags pageTitle={pageTitle} pageDescription={pageDescription} MetaImage={MetaImage} url={url} />
 
       <Header />
+      <GoogleAnalyticsFile/>
       <OurStoriesLoopTemplate />
       <Footer />
     </>

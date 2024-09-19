@@ -2,7 +2,7 @@ import React from 'react'
 
 import Header from '../../shared/Header'
 import Footer from '../../shared/Footer'
-
+import GoogleAnalyticsFile from '@/components/GoogleAnalyticsFile'
 import AgroforestryHeader from './AgroforestryHeader'
 import AgroforestryBanner from './AgroforestryBanner'
 import AgroforestryContent from './AgroforestryContent'
@@ -51,6 +51,7 @@ const index = () => {
 
     <WebsiteSchema/>
     <Header />
+    <GoogleAnalyticsFile/>
         <AgroforestryHeader />
         <AgroforestryBanner />
         <AgroforestryContent />

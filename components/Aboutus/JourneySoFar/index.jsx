@@ -5,7 +5,7 @@ import '../../Style'
 
 import Header from '../../shared/Header/Navbar'
 import Footer from '../../shared/Footer'
-
+import GoogleAnalyticsFile from '@/components/GoogleAnalyticsFile';
 import JourneySoFar from './JourneySoFar'
 import JourneyHeader from './JourneyHeader'
 import GoogleAnalyticsCode from '@/components/SeoComponents/GoogleAnalyticsCode';
@@ -37,7 +37,7 @@ const index = () => {
 
       
       <Header />
-
+      <GoogleAnalyticsFile/>
       <JourneyHeader />
       <JourneySoFar />
       {/* <JourneySoFarTimeline /> */}

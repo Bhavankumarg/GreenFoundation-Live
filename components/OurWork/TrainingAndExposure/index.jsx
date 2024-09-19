@@ -2,7 +2,7 @@ import React from 'react'
 
 import Header from '../../shared/Header'
 import Footer from '../../shared/Footer/'
-
+import GoogleAnalyticsFile from '@/components/GoogleAnalyticsFile';
 import '../../Style'
 
 import TrainingExposureHeader from './TrainingExposureHeader'
@@ -53,6 +53,7 @@ const index = () => {
 
     <WebsiteSchema/>
     <Header/>
+    <GoogleAnalyticsFile/>
     <TrainingExposureHeader />
     <TrainingExposureBanner />
     <TrainingExposureContent />

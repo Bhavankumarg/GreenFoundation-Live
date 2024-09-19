@@ -3,7 +3,7 @@ import PartnersHeader from './PartnersHeader'
 
 import Header from '../../shared/Header'
 import Footer from '../../shared/Footer'
-
+import GoogleAnalyticsFile from '@/components/GoogleAnalyticsFile'
 import '../../Style'
 import Banner from './Banner'
 import OurPartners from './OurPartners'
@@ -26,7 +26,8 @@ const index = () => {
 
       <SeoTags pageTitle={pageTitle} pageDescription={pageDescription} MetaImage={MetaImage} url={url} />
 
-      <Header />
+      <Header /> 
+      <GoogleAnalyticsFile/>
       <PartnersHeader />
       <Banner />
       <OurPartners />

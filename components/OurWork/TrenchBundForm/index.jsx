@@ -2,7 +2,7 @@ import React from 'react'
 
 import Header from '../../shared/Header'
 import Footer from '../../shared/Footer'
-
+import GoogleAnalyticsFile from '@/components/GoogleAnalyticsFile'
 import '../../Style'
 import TrenchBundHeader from './TrenchBundHeader'
 import TrenchBundBanner from './TrenchBundBanner'
@@ -51,7 +51,7 @@ const index = () => {
 
     <WebsiteSchema/>
     <Header />
-
+    <GoogleAnalyticsFile/>
     <TrenchBundHeader />
     <TrenchBundBanner />
     <TrenchBundContent />

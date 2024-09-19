@@ -5,7 +5,7 @@ import Footer from '@/components/shared/Footer/Footer'
 import AnnualReportsHeader from './AnnualReportsHeader'
 import AnnualReportsContent from './AnnualReportsContent'
 import { NextSeo } from 'next-seo'
-
+import GoogleAnalyticsFile from '@/components/GoogleAnalyticsFile'
 import '../../Style'
 
 const index = () => {
@@ -47,6 +47,7 @@ const index = () => {
       />
 
       <Header />
+      <GoogleAnalyticsFile/>
       <AnnualReportsHeader />
       <AnnualReportsContent />
       <Footer />

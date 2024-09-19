@@ -4,7 +4,7 @@ import Header from '../../shared/Header'
 import Footer from '../../shared/Footer/'
 
 import '../../Style'
-
+import GoogleAnalyticsFile from '@/components/GoogleAnalyticsFile'
 import DocHeader from './DocHeader'
 import DocBanner from './DocBanner'
 import DocContent from './DocContent'
@@ -28,6 +28,7 @@ const index = () => {
       <SeoTags pageTitle={pageTitle} pageDescription={pageDescription} MetaImage={MetaImage} url={url} />
 
       <Header />
+      <GoogleAnalyticsFile/>
       <DocHeader />
       <DocBanner />
       <DocContent />

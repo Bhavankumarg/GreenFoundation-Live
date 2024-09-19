@@ -4,7 +4,7 @@ import Link from 'next/link';
 import Header from '../components/shared/Header';
 import Footer from '../components/shared/Footer';
 import { NextSeo } from 'next-seo';
-
+import GoogleAnalyticsFile from '@/components/GoogleAnalyticsFile';
 import config from '../config.json';
 
 export default function Page({ data }) {
@@ -18,6 +18,7 @@ export default function Page({ data }) {
     return (
         <>
             <Header />
+            <GoogleAnalyticsFile/>
             <Container fluid className="w-100">
                 <Container className="py-5 p-0">
                     {/* Yoast SEO */}
