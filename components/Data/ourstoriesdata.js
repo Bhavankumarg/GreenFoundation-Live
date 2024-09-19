@@ -1,5 +1,8 @@
 const posts = [
     {
+            // meta_title: 'test meta title',
+            // meta_description:'test meta description',
+        
         title: 'Jayappa',
         image: '/publications/our-stories/jayappa.png',
         imagebanner: '/publications/our-stories/jayappa_banner.png',
