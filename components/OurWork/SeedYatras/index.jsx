@@ -2,7 +2,7 @@ import React from 'react'
 
 import Header from '../../shared/Header'
 import Footer from '../../shared/Footer'
-
+import GoogleAnalyticsFile from '@/components/GoogleAnalyticsFile'
 import '../../Style'
 import SeedYatrasHeader from './SeedYatrasHeader'
 import SeedYatrasBanner from './SeedYatrasBanner'
@@ -51,6 +51,7 @@ const index = () => {
 
       <WebsiteSchema />
       <Header />
+      <GoogleAnalyticsFile/>
       <SeedYatrasHeader />
       <SeedYatrasBanner />
       <SeedYatrasContent />

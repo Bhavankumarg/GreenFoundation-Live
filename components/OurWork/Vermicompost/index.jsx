@@ -4,7 +4,7 @@ import Header from '../../shared/Header'
 import Footer from '../../shared/Footer'
 
 import '../../Style'
-
+import GoogleAnalyticsFile from '@/components/GoogleAnalyticsFile'
 import VermicompostHeader from './VermicompostHeader'
 import VermicompostBanner from './VermicompostBanner'
 import VermicompostContent from './VermicompostContent'
@@ -52,6 +52,7 @@ const index = () => {
 
   <WebsiteSchema/>
   <Header />
+  <GoogleAnalyticsFile/>
   <VermicompostHeader />
   <VermicompostBanner />
   <VermicompostContent />

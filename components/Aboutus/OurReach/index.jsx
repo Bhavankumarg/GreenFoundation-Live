@@ -2,7 +2,7 @@ import React from 'react'
 
 import Header from '@/components/shared/Header/Navbar'
 import Footer from '@/components/shared/Footer/Footer'
-
+import GoogleAnalyticsFile from '@/components/GoogleAnalyticsFile'
 import '../../Style'
 import OurReachHeader from './OurReachHeader'
 import OurReach from '@/components/Home/OurReach'
@@ -26,6 +26,7 @@ const index = () => {
       <SeoTags pageTitle={pageTitle} pageDescription={pageDescription} MetaImage={MetaImage} url={url} />
 
       <Header />
+      <GoogleAnalyticsFile/>
       <OurReachHeader />
       <OurReach />
       <Footer />

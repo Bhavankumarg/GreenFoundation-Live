@@ -5,7 +5,7 @@ import Footer from '../shared/Footer'
 import PolicyEngagementBanner from './PolicyEngagementBanner'
 import PolicyEngagementContent from './PolicyEngagementContent'
 import WebsiteSchema from './WebsiteSchema'
-
+import GoogleAnalyticsFile from '../GoogleAnalyticsFile'
 import '../Style'
 import { NextSeo } from 'next-seo'
 
@@ -48,6 +48,7 @@ const index = () => {
       />
       <WebsiteSchema/>
     <Header />
+    <GoogleAnalyticsFile/>
     <PolicyEngagementBanner />
     <PolicyEngagementContent />
     <Footer />

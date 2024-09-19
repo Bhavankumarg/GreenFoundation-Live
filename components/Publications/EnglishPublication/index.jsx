@@ -6,7 +6,7 @@ import Footer from '../../shared/Footer'
 import EnglishPublicationsLoopTemplate from '@/components/LoopTemplate/EnglishPublicationsLoopTemplate'
 import EnglishPublicationHeader from './EnglishPublicationHeader'
 import { NextSeo } from 'next-seo'
-
+import GoogleAnalyticsFile from '@/components/GoogleAnalyticsFile'
 
 import SeoTags from '@/components/SeoComponents/Seo';
 import { usePathname } from 'next/navigation';
@@ -26,6 +26,7 @@ const index = () => {
       <SeoTags pageTitle={pageTitle} pageDescription={pageDescription} MetaImage={MetaImage} url={url} />
 
       <Header />
+      <GoogleAnalyticsFile/>
       <EnglishPublicationHeader />
       <EnglishPublicationsLoopTemplate />
       <Footer />

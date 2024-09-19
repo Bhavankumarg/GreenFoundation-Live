@@ -7,7 +7,7 @@ import SeedHeader from './SeedHeader'
 import SeedBanner from './SeedBanner'
 import SeedContent from './SeedContent'
 import { NextSeo } from 'next-seo'
-
+import GoogleAnalyticsFile from '@/components/GoogleAnalyticsFile'
 import SeoTags from '@/components/SeoComponents/Seo';
 import { usePathname } from 'next/navigation';
 
@@ -26,6 +26,7 @@ const index = () => {
       <SeoTags pageTitle={pageTitle} pageDescription={pageDescription} MetaImage={MetaImage} url={url} />
 
       <Header />
+      <GoogleAnalyticsFile/>
       <SeedHeader />
       <SeedBanner />
       <SeedContent />

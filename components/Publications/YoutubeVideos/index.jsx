@@ -2,7 +2,7 @@ import React from 'react'
 
 import Header from '../../shared/Header'
 import Footer from '../../shared/Footer'
-
+import GoogleAnalyticsFile from '@/components/GoogleAnalyticsFile'
 import '../../Style'
 import YoutubeVideosStatic from './YoutubeVideosStatic'
 import { NextSeo } from 'next-seo'
@@ -27,6 +27,7 @@ const index = () => {
 
 
       <Header />
+      <GoogleAnalyticsFile/>
       <YoutubeVideosStatic />
       <Footer />
     </>

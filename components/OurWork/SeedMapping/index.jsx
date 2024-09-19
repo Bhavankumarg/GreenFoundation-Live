@@ -4,7 +4,7 @@ import Header from '../../shared/Header'
 import Footer from '../../shared/Footer'
 import WebsiteSchema from './WebsiteSchema'
 import '../../Style'
-
+import GoogleAnalyticsFile from '@/components/GoogleAnalyticsFile'
 import SeedMappingHeader from './SeedMappingHeader'
 import SeedMappingContent from './SeedMappingContent'
 import SeedMappingBanner from './SeedMappingBanner'
@@ -51,6 +51,7 @@ const index = () => {
    
    <WebsiteSchema/>
    <Header />
+   <GoogleAnalyticsFile/>
    <SeedMappingHeader />
    <SeedMappingBanner />
    <SeedMappingContent />

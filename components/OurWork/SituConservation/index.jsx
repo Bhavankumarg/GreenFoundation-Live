@@ -11,7 +11,7 @@ import { NextSeo } from 'next-seo'
 
 import SeoTags from '@/components/SeoComponents/Seo';
 import { usePathname } from 'next/navigation';
-
+import GoogleAnalyticsFile from '@/components/GoogleAnalyticsFile'
 const index = () => {
 
   const pathname = usePathname();
@@ -27,6 +27,7 @@ const index = () => {
       <SeoTags pageTitle={pageTitle} pageDescription={pageDescription} MetaImage={MetaImage} url={url} />
 
       <Header />
+      <GoogleAnalyticsFile/>
       <SituHeader />
       <SituBanner />
       <SituContent />

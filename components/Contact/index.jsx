@@ -2,7 +2,7 @@ import React from 'react'
 
 import Header from '../shared/Header/Navbar'
 import Footer from '../shared/Footer/Footer'
-
+import GoogleAnalyticsFile from '../GoogleAnalyticsFile'
 import '../Style'
 import ContactForm from './ContactForm'
 import { NextSeo } from 'next-seo'
@@ -49,6 +49,7 @@ const index = () => {
       />
       <WebsiteSchema />
       <Header />
+      <GoogleAnalyticsFile/>
       <ContactForm />
       {/* <AutoLayoutExample /> */}
 

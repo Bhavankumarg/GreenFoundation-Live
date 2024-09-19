@@ -3,7 +3,7 @@ import React from 'react'
 import Header from '../../shared/Header'
 import Footer from '../../shared/Footer/'
 import '../../Style'
-
+import GoogleAnalyticsFile from '@/components/GoogleAnalyticsFile'
 import IncomeHeader from './IncomeHeader'
 import IncomeBanner from './IncomeBanner'
 import IncomeContent from './IncomeContent'
@@ -53,7 +53,7 @@ const index = () => {
 
       <WebsiteSchema />
       <Header />
-
+      <GoogleAnalyticsFile/>
       <IncomeHeader />
       <IncomeBanner />
       <IncomeContent />

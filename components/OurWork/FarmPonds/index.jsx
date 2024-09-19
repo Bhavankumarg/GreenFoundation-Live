@@ -8,7 +8,7 @@ import FarmBanner from './FarmBanner'
 import FarmContent from './FarmContent'
 import { NextSeo } from 'next-seo'
 import WebsiteSchema from './WebsiteSchema'
-
+import GoogleAnalyticsFile from '@/components/GoogleAnalyticsFile'
 const index = () => {
   return (
     <>
@@ -48,6 +48,7 @@ const index = () => {
     />
     <WebsiteSchema/>
     <Header />
+    <GoogleAnalyticsFile/>
         <FarmHeader />
         <FarmBanner />
         <FarmContent />

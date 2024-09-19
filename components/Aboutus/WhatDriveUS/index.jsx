@@ -15,7 +15,7 @@ import SeekingLegislativeSupport from './SeekingLegislativeSupport'
 import RaisingAwareness from './RaisingAwareness'
 import WomenEmpowerment from './WomenEmpowerment'
 import { NextSeo } from 'next-seo'
-
+import GoogleAnalyticsFile from '@/components/GoogleAnalyticsFile'
 
 import SeoTags from '@/components/SeoComponents/Seo';
 import { usePathname } from 'next/navigation';
@@ -35,6 +35,7 @@ const index = () => {
       <SeoTags pageTitle={pageTitle} pageDescription={pageDescription} MetaImage={MetaImage} url={url} />
 
       <Header />
+      <GoogleAnalyticsFile/>
       <WhatDriveHeader />
       <WhatDriveUs />
       <Content />

@@ -1,5 +1,5 @@
 import React from 'react'
-
+import GoogleAnalyticsFile from '@/components/GoogleAnalyticsFile'
 import Header from '../../shared/Header'
 import Footer from '../../shared/Footer'
 
@@ -49,6 +49,7 @@ const index = () => {
       />
     <WebsiteSchema/>
     <Header />
+    <GoogleAnalyticsFile/>
     <SeedBanksHeader />
     <SeedBanksBanner />
     <SeedBanksContent />

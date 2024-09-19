@@ -1,5 +1,5 @@
 import React from 'react'
-
+import GoogleAnalyticsFile from '@/components/GoogleAnalyticsFile'
 import Header from '../../shared/Header'
 import Footer from '../../shared/Footer'
 import '../../Style'
@@ -29,6 +29,7 @@ const index = () => {
 
 
       <Header />
+      <GoogleAnalyticsFile/>
       <KitchenHeader />
       <KitchenBanner />
       <KitchenContent />
