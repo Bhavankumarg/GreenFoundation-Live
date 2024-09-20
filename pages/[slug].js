@@ -6,7 +6,7 @@ import Footer from '../components/shared/Footer';
 import { NextSeo } from 'next-seo';
 import GoogleAnalyticsFile from '@/components/GoogleAnalyticsFile';
 import config from '../config.json';
-
+import WebsiteSchema from './our_stories/WebsiteSchema';
 export default function Page({ data }) {
     const URL_SEO = `${config.apiDomain}posts/${data[0]?.slug}&_embed`;
 
@@ -16,7 +16,8 @@ export default function Page({ data }) {
     };
 
     return (
-        <>
+        <>  
+            <WebsiteSchema/>
             <Header />
             <GoogleAnalyticsFile/>
             <Container fluid className="w-100">
@@ -28,7 +29,7 @@ export default function Page({ data }) {
                                 <NextSeo
                                     title={item.yoast_head_json?.title}
                                     description={item.yoast_head_json?.description}
-                                    canonical={URL_SEO}
+                                    canonical={`https://greenfoundation.in/${item.slug}`}
                                     openGraph={{
                                         title: item.yoast_head_json?.title,
                                         description: item.yoast_head_json?.description,

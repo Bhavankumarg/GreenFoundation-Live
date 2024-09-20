@@ -1,8 +1,7 @@
 const posts = [
     {
-            // meta_title: 'test meta title',
-            // meta_description:'test meta description',
-        
+        meta_title: "Jayappa's Journey to Sustainable Farming",
+        meta_description:'Discover how Jayappa, a skeptical farmer, became a champion of sustainable agriculture with the help of GREEN. Learn about his journey, the challenges he faced, and the positive impact on his community.',
         title: 'Jayappa',
         image: '/publications/our-stories/jayappa.png',
         imagebanner: '/publications/our-stories/jayappa_banner.png',
@@ -14,20 +13,25 @@ const posts = [
         ],
     },
     {
-        title: 'Jayarathnamma',
-        image: '/publications/our-stories/jayarathnamma.png',
-        imagebanner: '/publications/our-stories/jayarathnamma_banner.png',
-        date: 'February 10, 2023',
-        excerpt: 'A community leader and entrepreneur in her own right, Jayarathnamma is quietly breaking through the social barriers that women have faced for centuries. A leading member of the Self Help Group in her village of Kolagondanahalli, she spearheads income.',
+        meta_title: "Sustainable Living: Jayarathnamma's Story of Community and Resilience",
+        meta_description: "Discover the inspiring story of Jayarathnamma, a community leader and entrepreneur who has empowered women in her village through self-help groups and sustainable farming practices.",
+        title: "Jayarathnamma",
+        image: "/publications/our-stories/jayarathnamma.png",
+        imagebanner: "/publications/our-stories/jayarathnamma_banner.png",
+        date: "February 10, 2023",
+        excerpt: "A community leader and entrepreneur in her own right, Jayarathnamma is quietly breaking through the social barriers that women have faced for centuries. A leading member of the Self Help Group in her village of Kolagondanahalli, she spearheads income.",
         content: [
-            { type: 'paragraph', text: 'A community leader and entrepreneur in her own right, Jayarathnamma is quietly breaking through the social barriers that women have faced for centuries. A leading member of the Self Help Group in her village of Kolagondanahalli, she spearheads income generation programs for 16 strong women.' },
-            { type: 'paragraph', text: 'Together, the group has availed loans and subsidies for small scale enterprises which have greatly strengthened their livelihoods. Jayarathnamma plays a large part in all these ventures, monitoring progress and regularizing payments on bank loans so that the group’s endeavours bear good results. But this mother and wife has not stopped there. She also runs a small hotel in her village to supplement the family income.' },
-            { type: 'paragraph', text: 'When she is not donning the cap of a businesswoman, Jayarathnamma is busy helping her husband and father in their farming. In fact, says this enterprising lady, she is a farmer at heart. And one of her proudest achievements is the kitchen garden she has so carefully grown in her home. Introduced to kitchen gardening through GREEN’s initiatives, she has successfully turned her backyard into a never ending supply of nutritious vegetables that strengthen the food security of her family. Jayarathnamma was trained in permaculture by GREEN staff. This is a sustainable land use design which maximizes productivity while minimizing labour input. Today, Jayarathnamma grows over 20 different varieties of vegetables in her garden, including cucumber, beans, radish, tomatoes etc.' },
-            { type: 'paragraph', text: 'Thanks to all her efforts and hard work, Jayarathnamma has been able to contribute to the family’s income and expenditures. She has even been able to help educate her daughters without any hindrances, a fact that gives her immense satisfaction and pleasure.' }
+            { type: "paragraph", text: "A community leader and entrepreneur in her own right, Jayarathnamma is quietly breaking through the social barriers that women have faced for centuries. A leading member of the Self Help Group in her village of Kolagondanahalli, she spearheads income generation programs for 16 strong women." },
+            { type: "paragraph", text: "Together, the group has availed loans and subsidies for small scale enterprises which have greatly strengthened their livelihoods. Jayarathnamma plays a large part in all these ventures, monitoring progress and regularizing payments on bank loans so that the group’s endeavours bear good results. But this mother and wife has not stopped there. She also runs a small hotel in her village to supplement the family income." },
+            { type: "paragraph", text: "When she is not donning the cap of a businesswoman, Jayarathnamma is busy helping her husband and father in their farming. In fact, says this enterprising lady, she is a farmer at heart. And one of her proudest achievements is the kitchen garden she has so carefully grown in her home. Introduced to kitchen gardening through GREEN’s initiatives, she has successfully turned her backyard into a never ending supply of nutritious vegetables that strengthen the food security of her family. Jayarathnamma was trained in permaculture by GREEN staff. This is a sustainable land use design which maximizes productivity while minimizing labour input. Today, Jayarathnamma grows over 20 different varieties of vegetables in her garden, including cucumber, beans, radish, tomatoes etc." },
+            { type: "paragraph", text: "Thanks to all her efforts and hard work, Jayarathnamma has been able to contribute to the family’s income and expenditures. She has even been able to help educate her daughters without any hindrances, a fact that gives her immense satisfaction and pleasure." }
         ],
     },
+    
 
     {
+        meta_title: '',
+        meta_description:'',
         title: 'Lakshmamma',
         image: '/publications/our-stories/lakshmamma.png',
         imagebanner: '/publications/our-stories/lakshmamma_banner.png',
@@ -39,6 +43,8 @@ const posts = [
     },
 
     {
+        meta_title: '',
+        meta_description:'',
         title: 'Chandre Gowda',
         image: '/publications/our-stories/chandre_gowda.png',
         imagebanner: '/publications/our-stories/chandre_gowda_banner.png',
@@ -51,6 +57,8 @@ const posts = [
     },
 
     {
+        meta_title: '',
+        meta_description:'',
         title: 'Manjulamma',
         image: '/publications/our-stories/manjulamma.png',
         imagebanner: '/publications/our-stories/manjulamma_banner.png',
@@ -62,6 +70,8 @@ const posts = [
     },
 
     {
+        meta_title: '',
+        meta_description:'',
         title: 'Shivrudraiah',
         image: '/publications/our-stories/shivrudraiah.png',
         imagebanner: '/publications/our-stories/shivrudraiah_banner.png',
@@ -73,6 +83,8 @@ const posts = [
     },
 
     {
+        meta_title: '',
+        meta_description:'',
         title: 'Sujathamma Individual Seed Saver',
         image: '/publications/our-stories/sujathamma.png',
         imagebanner: '/publications/our-stories/sujathamma_banner.png',
@@ -84,6 +96,8 @@ const posts = [
     },
 
     {
+        meta_title: '',
+        meta_description:'',
         title: 'Nagrathnamma',
         image: '/publications/our-stories/nagrathnamma.png',
         imagebanner: '/publications/our-stories/nagrathnamma_banner.png',
@@ -95,6 +109,8 @@ const posts = [
     },
 
     {
+        meta_title: '',
+        meta_description:'',
         title: 'Nagaraju K M',
         image: '/publications/our-stories/nagaraju.png',
         imagebanner: '/publications/our-stories/nagaraju_banner.png',
@@ -106,6 +122,8 @@ const posts = [
     },
 
     {
+        meta_title: '',
+        meta_description:'',
         title: 'Noorawanduswamy on PGS',
         image: '/publications/our-stories/nooravandsamy.png',
         imagebanner: '/publications/our-stories/noorawanduswamy_banner.png',
@@ -117,6 +135,8 @@ const posts = [
     },
 
     {
+        meta_title: '',
+        meta_description:'',
         title: 'Rudraswamy',
         image: '/publications/our-stories/rudraswamy.png',
         imagebanner: '/publications/our-stories/rudraswamy_banner.png',
@@ -127,6 +147,8 @@ const posts = [
         ],
     },
     {
+        meta_title: '',
+        meta_description:'',
         title: 'Savantaiah',
         image: '/publications/our-stories/savantaiah.png',
         imagebanner: '/publications/our-stories/savantaiah_banner.png',
@@ -137,6 +159,8 @@ const posts = [
         ],
     },
     {
+        meta_title: '',
+        meta_description:'',
         title: 'Rajamma',
         image: '/publications/our-stories/rajamma.png',
         imagebanner: '/publications/our-stories/rajamma_banner.png',
@@ -147,6 +171,8 @@ const posts = [
         ],
     },
     {
+        meta_title: '',
+        meta_description:'',
         title: 'Neelamma',
         image: '/publications/our-stories/neelamma.png',
         imagebanner: '/publications/our-stories/neelamma_banner.png',
