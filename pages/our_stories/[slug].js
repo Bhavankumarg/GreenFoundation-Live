@@ -5,9 +5,8 @@ import slugify from "slugify";
 import GoogleAnalyticsFile from "@/components/GoogleAnalyticsFile";
 import storydata from "../../components/Data/ourstoriesdata";
 import Link from "next/link";
-
 import "../../components/Style";
-
+import WebsiteSchema from "@/pages/our_stories/WebsiteSchema"
 import "./post.css";
 
 import Header from "../../components/shared/Header";
@@ -15,6 +14,7 @@ import Footer from "../../components/shared/Footer";
 import { NextSeo } from "next-seo";
 import { usePathname } from "next/navigation";
 import PostNotFound from "../post-not-found";
+// import WebsiteSchema from "@/components/Certification/WebsiteSchema";
 
 const OurStoriesSlug = () => {
   const router = useRouter();
@@ -27,9 +27,11 @@ const OurStoriesSlug = () => {
   );
 
   if (!post) {
-    return <>
-    <PostNotFound/>
-    </>;
+    return (
+      <>
+        <PostNotFound />
+      </>
+    );
   }
   return (
     <>
@@ -44,7 +46,7 @@ const OurStoriesSlug = () => {
         <meta name="description" content={post.meta_description} />
         <link rel="canonical" href={`https://greenfoundation.in${pathname}`} />
       </head>
-
+      <WebsiteSchema />
       <Header />
       <GoogleAnalyticsFile />
       <Container fluid className="w-100">
